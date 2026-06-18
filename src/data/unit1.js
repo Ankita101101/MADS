@@ -225,7 +225,7 @@ Early Smartphones (Mid-2000s)
 • Used physical keyboards or stylus input
 Examples: BlackBerry Devices | Palm Treo
 
-Modern Smartphones (2007 Onwards)`
+Modern Smartphones (2007 Onwards)
 • Full touchscreen interfaces
 • Application ecosystem through app stores
 • High-speed internet connectivity
