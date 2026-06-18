@@ -208,31 +208,24 @@ Each generation introduced new capabilities such as messaging, internet connecti
   notes: `
 
 First Mobile Phones (1970s–1980s)
-
 • Large and heavy analog devices
 • Operated on first-generation (1G) networks
 • Supported only voice communication
-
 Example: Motorola DynaTAC 8000X (1983)
 
 Feature Phones (1990s–Early 2000s)
-
 • Smaller and more affordable devices
 • Operated on digital 2G networks
 • Supported SMS messaging and simple applications
-
 Examples: Nokia 3310 | Motorola RAZR
 
 Early Smartphones (Mid-2000s)
-
 • Combined phone and PDA functionality
 • Supported email and limited applications
 • Used physical keyboards or stylus input
-
 Examples: BlackBerry Devices | Palm Treo
 
-Modern Smartphones (2007 Onwards)
-
+Modern Smartphones (2007 Onwards)`
 • Full touchscreen interfaces
 • Application ecosystem through app stores
 • High-speed internet connectivity
@@ -263,7 +256,6 @@ Examples: Samsung Galaxy Fold | Huawei Mate X
   heading: "3. Key Milestone Devices",
 
   notes: `
-
 Several devices played an important role in shaping modern mobile technology.
 
 1983 – Motorola DynaTAC 8000X
