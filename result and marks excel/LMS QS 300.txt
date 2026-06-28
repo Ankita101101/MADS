@@ -1,0 +1,3390 @@
+
+Java is one of the most popular programming languages in the world. It is platform-independent and object-oriented, which makes it suitable for a wide range of applications including Android development.
+A) Java is a low-level language.
+B) Java supports object-oriented principles.
+C) Java is platform-independent.
+D) Java can only be run on Windows systems.
+{
+=A, C, D are correct
+~B, C, D are correct
+~A, B, C are correct
+~B, C are correct
+}
+
+Object-Oriented Programming in Java helps create modular, reusable software. The four pillars of OOP are essential for building robust applications.
+A) Inheritance is one of the core concepts of OOP.
+B) Polymorphism allows one interface to be used for different data types.
+C) Java does not support abstraction.
+D) Encapsulation hides data within objects.
+{
+=A, B, D are correct
+~A, C, D are correct
+~B, C, D are correct
+~A, B, C are correct
+}
+
+Java's syntax is influenced by C++, but its memory management and security features are more refined.
+A) Java uses manual memory allocation.
+B) Java uses a garbage collector.
+C) Java provides strong memory management.
+D) Java syntax is influenced by Python.
+{
+=B, C are correct
+~A, B, C are correct
+~B, C, D are correct
+~A, C, D are correct
+}
+
+In Java, the concept of encapsulation provides a way to protect data from unauthorized access.
+A) Variables are declared as public for encapsulation.
+B) Variables are kept private.
+C) Getter and setter methods provide access.
+D) Encapsulation improves security.
+{
+=B, C, D are correct
+~A, B, C are correct
+~A, C, D are correct
+~A, B, D are correct
+}
+
+Abstraction in Java allows a programmer to focus on what an object does instead of how it does it.
+A) Abstraction hides complexity.
+B) Java supports abstraction via abstract classes.
+C) Abstract classes can be instantiated.
+D) Interfaces offer 100% abstraction in Java 7.
+{
+=A, B, D are correct
+~A, B, C are correct
+~B, C, D are correct
+~A, C, D are correct
+}
+
+Polymorphism enables a single action to perform differently in different contexts.
+A) Polymorphism includes method overloading and overriding.
+B) It supports only compile-time binding.
+C) Method overriding happens at runtime.
+D) Java does not support polymorphism.
+{
+=A, C are correct
+~A, B, C are correct
+~B, C, D are correct
+~A, C, D are correct
+}
+
+Java provides several primitive data types which are the building blocks for data manipulation.
+A) int, float, char are primitive types.
+B) String is a primitive type.
+C) boolean is a primitive type.
+D) Arrays are non-primitive types.
+{
+=A, C, D are correct
+~A, B, C are correct
+~B, C, D are correct
+~A, B, D are correct
+}
+
+Control statements in Java determine the flow of execution.
+A) The if-else statement is used for decision-making.
+B) for and while are types of loops.
+C) switch cannot be used with characters.
+D) do-while loop executes at least once.
+{
+=A, B, D are correct
+~A, B, C are correct
+~B, C, D are correct
+~A, C, D are correct
+}
+
+Inheritance in Java allows code reusability and hierarchy.
+A) The extends keyword is used for inheritance.
+B) Java supports multiple inheritance using classes.
+C) Inheritance reduces code duplication.
+D) Dog is-a Animal is an example of inheritance.
+{
+=A, C, D are correct
+~A, B, C are correct
+~B, C, D are correct
+~A, B, D are correct
+}
+
+Java provides several logical and arithmetic operators.
+A) && is a logical AND operator.
+B) == checks for reference equality.
+C) +, -, * are arithmetic operators.
+D) != checks for inequality.
+{
+=A, C, D are correct
+~A, B, C are correct
+~B, C, D are correct
+~A, B, D are correct
+}
+
+Java classes can be organized using access modifiers and structure.
+A) A class can be abstract.
+B) A class can have both private and public members.
+C) A class must have only public methods.
+D) Constructors can be declared in abstract classes.
+{
+=A, B, D are correct
+~A, C, D are correct
+~B, C, D are correct
+~A, B, C are correct
+}
+
+Java interfaces define methods without implementation.
+A) Interfaces are fully abstract in Java 7.
+B) Interfaces can have constructors.
+C) Interface methods are public and abstract by default.
+D) A class can implement multiple interfaces.
+{
+=A, C, D are correct
+~A, B, C are correct
+~B, C, D are correct
+~A, B, D are correct
+}
+
+Java supports different types of inheritance.
+A) Single inheritance uses one base and one derived class.
+B) Multi-level inheritance forms a chain of classes.
+C) Java does not support hierarchical inheritance.
+D) Inheritance promotes reusability.
+{
+=A, B, D are correct
+~A, C, D are correct
+~B, C, D are correct
+~A, B, C are correct
+}
+
+Encapsulation improves modularity and data protection.
+A) It combines variables and methods into a single unit.
+B) It allows direct access to private variables.
+C) It improves maintainability.
+D) It ensures security.
+{
+=A, C, D are correct
+~A, B, C are correct
+~B, C, D are correct
+~A, B, D are correct
+}
+
+Java supports abstraction using abstract classes.
+A) Abstract class can contain both abstract and non-abstract methods.
+B) Abstract class can be instantiated.
+C) Abstract class can have constructors.
+D) Abstract class cannot be inherited.
+{
+=A, C are correct
+~A, B, C are correct
+~B, C, D are correct
+~A, B, D are correct
+}
+
+In Java, method overloading allows multiple methods with the same name.
+A) Methods must differ in return type only.
+B) Methods can differ in number of parameters.
+C) Overloaded methods can have different types of parameters.
+D) Overloading is resolved at runtime.
+{
+=B, C are correct
+~A, B, C are correct
+~A, C, D are correct
+~B, C, D are correct
+}
+
+Java programs follow a specific structure and syntax.
+A) Every application must have a main method.
+B) Java files must end with `.class`.
+C) Comments help in understanding code.
+D) Java code runs without compilation.
+{
+=A, B, C are correct
+~A, B, D are correct
+~B, C, D are correct
+~A, C, D are correct
+}
+
+Java variables can be of different scopes and types.
+A) Local variables are declared inside methods.
+B) Instance variables are declared in a class but outside methods.
+C) Static variables belong to a class.
+D) Variables cannot be initialized during declaration.
+{
+=A, B, C are correct
+~A, C, D are correct
+~B, C, D are correct
+~A, B, D are correct
+}
+
+Java supports both primitive and non-primitive data types.
+A) `int` and `float` are non-primitive types.
+B) `String` and `Array` are non-primitive.
+C) `boolean` is a primitive type.
+D) `Class` is a non-primitive type.
+{
+=B, C, D are correct
+~A, C, D are correct
+~A, B, C are correct
+~A, B, D are correct
+}
+
+
+OOP in Java promotes code reuse and organization.
+A) Objects are instances of classes.
+B) Encapsulation separates interface from implementation.
+C) Polymorphism prevents inheritance.
+D) Abstraction reduces complexity.
+{
+=A, B, D are correct
+~A, C, D are correct
+~B, C, D are correct
+~A, B, C are correct
+}
+
+
+A) Java supports platform independence.  
+B) Java was developed by Microsoft.  
+C) Java supports object-oriented programming.  
+D) Java is used for Android development.  
+{  
+=A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+~A, B, D are correct  
+}
+
+
+A) Java is a compiled language.  
+B) Java requires a virtual machine to run.  
+C) Java does not support loops.  
+D) Java supports conditional statements.  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+
+A) Encapsulation hides internal data.  
+B) Encapsulation exposes variables directly.  
+C) Encapsulation improves security.  
+D) Encapsulation is not supported in Java.  
+{  
+=A, C are correct  
+~A, B, C are correct  
+~B, C, D are correct  
+~A, B, D are correct  
+}
+
+
+A) Inheritance promotes code reusability.  
+B) Java uses the `extends` keyword for inheritance.  
+C) All classes in Java must inherit another class.  
+D) Inheritance forms an is-a relationship.  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+
+A) An interface is a fully abstract class in Java 7.  
+B) A class can implement multiple interfaces.  
+C) Interface methods are private by default.  
+D) Interfaces can contain default methods (Java 8+).  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+
+A) Abstract classes can be partially implemented.  
+B) Abstract classes can be instantiated.  
+C) Abstract classes can have constructors.  
+D) Abstract classes must contain abstract methods.  
+{  
+=A, C are correct  
+~A, B, C are correct  
+~B, C, D are correct  
+~A, B, D are correct  
+}
+
+
+A) `int`, `float`, and `char` are primitive types.  
+B) `String` is a non-primitive type.  
+C) `boolean` is not a primitive type.  
+D) Arrays are non-primitive.  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+
+A) Java supports `if-else`, `switch`, and `for` statements.  
+B) `do-while` loop runs at least once.  
+C) Logical operators include && and ||.  
+D) Java doesn’t support nested conditions.  
+{  
+=A, B, C are correct  
+~A, B, D are correct  
+~B, C, D are correct  
+~A, C, D are correct  
+}
+
+
+A) Method overloading occurs at compile time.  
+B) Method overriding requires inheritance.  
+C) Overloaded methods must differ in return types.  
+D) Overriding is part of runtime polymorphism.  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+
+A) A class in Java can have both private and public members.  
+B) All methods in a class must be static.  
+C) A class can contain variables and methods.  
+D) A class must implement an interface.  
+{  
+=A, C are correct  
+~A, B, C are correct  
+~B, C, D are correct  
+~A, B, D are correct  
+}
+
+
+A) Java was created by Sun Microsystems.  
+B) Java’s WORA (Write Once, Run Anywhere) principle aids portability.  
+C) Java is only used for web applications.  
+D) Java supports multi-threading.  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+
+A) Java arrays can store primitive types.  
+B) Arrays are objects in Java.  
+C) Arrays must be initialized when declared.  
+D) The length of an array can be accessed using `.length`.  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+
+A) Java supports multiple inheritance through interfaces.  
+B) Java does not support hierarchical inheritance.  
+C) Multi-level inheritance is allowed in Java.  
+D) Java allows a class to extend multiple classes.  
+{  
+=A, C are correct  
+~A, B, C are correct  
+~B, C, D are correct  
+~A, C, D are correct  
+}
+
+
+A) The main method in Java is the entry point.  
+B) A class can have multiple main methods.  
+C) Java does not require a main method.  
+D) `public static void main` is the correct signature.  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+
+A) Java allows both method overloading and method overriding.  
+B) Overloading depends on parameter list.  
+C) Overriding allows changing method signature.  
+D) Overriding works with inheritance.  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+
+A) Java is case-sensitive.  
+B) Variable names can start with digits.  
+C) Comments can be single or multi-line.  
+D) Java requires semicolons at the end of statements.  
+{  
+=A, C, D are correct  
+~A, B, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+
+A) The `switch` statement can work with characters.  
+B) `break` is used to exit a loop or switch.  
+C) `continue` exits the loop.  
+D) `default` handles unmatched switch cases.  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+
+A) `System.out.println` is used for output.  
+B) Java supports input using `Scanner`.  
+C) Java doesn’t support standard input/output.  
+D) `import java.util.*;` is used for utility classes.  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+
+A) Java uses garbage collection.  
+B) Memory is managed automatically.  
+C) Developers must manually deallocate memory.  
+D) Memory leaks are impossible in Java.  
+{  
+=A, B are correct  
+~A, C, D are correct  
+~B, C are correct  
+~A, B, C are correct  
+}
+
+
+A) Java provides `try-catch` for exception handling.  
+B) Exceptions must be caught or declared.  
+C) All exceptions are checked exceptions.  
+D) `finally` is always executed.  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+  
+Assertion: Java supports object-oriented programming.  
+Reason: Java allows the creation of methods inside interfaces.  
+{  
+=Both assertion and reason are true, and the reason is the correct explanation for the assertion  
+~Both assertion and reason are true, but the reason is not the correct explanation for the assertion  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+}
+
+  
+Assertion: Java is platform-independent.  
+Reason: Java code runs only on Windows using the JVM.  
+{  
+=The assertion is true, but the reason is false  
+~Both assertion and reason are true, but the reason is not the correct explanation for the assertion  
+~Both assertion and reason are false  
+~Both assertion and reason are true, and the reason is the correct explanation for the assertion  
+}
+
+  
+Assertion: Encapsulation in Java enhances security.  
+Reason: It allows public access to all class variables.  
+{  
+=The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+~Both assertion and reason are true, but the reason is not the correct explanation for the assertion  
+~Both assertion and reason are true, and the reason is the correct explanation for the assertion  
+}
+
+ 
+Assertion: Abstraction helps in reducing complexity.  
+Reason: Abstraction exposes all implementation details to the user.  
+{  
+=The assertion is true, but the reason is false  
+~Both assertion and reason are true  
+~Both assertion and reason are false  
+~Both assertion and reason are true, but the reason is not the correct explanation for the assertion  
+}
+
+  
+Assertion: Method overriding supports runtime polymorphism.  
+Reason: Method overriding depends on the method's return type.  
+{  
+=The assertion is true, but the reason is false  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+~Both assertion and reason are true, and the reason is the correct explanation  
+~Both assertion and reason are false  
+}
+
+ 
+Assertion: Java supports inheritance through the `extends` keyword.  
+Reason: Inheritance in Java creates a has-a relationship.  
+{  
+=The assertion is true, but the reason is false  
+~Both assertion and reason are true  
+~Both assertion and reason are false  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+}
+
+  
+Assertion: Java does not support multiple inheritance with classes.  
+Reason: Java allows a class to extend more than one class at a time.  
+{  
+=The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+~Both assertion and reason are true  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+}
+
+  
+Assertion: Polymorphism allows the same method to act differently.  
+Reason: It is achieved using method overloading and overriding.  
+{  
+=Both assertion and reason are true, and the reason is the correct explanation  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+}
+
+  
+Assertion: Interfaces in Java can have both abstract and default methods (Java 8+).  
+Reason: Java 7 only allowed abstract methods in interfaces.  
+{  
+=Both assertion and reason are true, and the reason is the correct explanation  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+}
+
+  
+Assertion: Java arrays are objects.  
+Reason: Arrays in Java can only hold primitive types.  
+{  
+=The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+~Both assertion and reason are true  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+}
+
+  
+Assertion: Encapsulation combines data and methods into a single unit.  
+Reason: This unit is called a class.  
+{  
+=Both assertion and reason are true, and the reason is the correct explanation  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+}
+
+  
+Assertion: Abstraction focuses on how an object performs an action.  
+Reason: It hides implementation details and shows only functionality.  
+{  
+=The assertion is false, but the reason is true  
+~Both assertion and reason are true  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+}
+
+  
+Assertion: Java supports only static binding.  
+Reason: Method overriding is resolved during compilation.  
+{  
+=Both assertion and reason are false  
+~The assertion is false, but the reason is true  
+~Both assertion and reason are true  
+~The assertion is true, but the reason is false  
+}
+ 
+
+Assertion: The `main` method is essential to run a Java program.  
+Reason: It acts as the entry point for program execution.  
+{  
+=Both assertion and reason are true, and the reason is the correct explanation  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+}
+
+  
+Assertion: Java variables must be declared with a data type.  
+Reason: Java is a strongly typed language.  
+{  
+=Both assertion and reason are true, and the reason is the correct explanation  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+}
+
+  
+Assertion: Interfaces support multiple inheritance.  
+Reason: A class can implement multiple interfaces.  
+{  
+=Both assertion and reason are true, and the reason is the correct explanation  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+}
+
+ 
+Assertion: Java uses automatic memory management.  
+Reason: Java developers must manually free up memory.  
+{  
+=The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+~Both assertion and reason are true  
+~The assertion is false, but the reason is true  
+}
+
+ 
+Assertion: Java supports access modifiers.  
+Reason: Modifiers control the visibility of classes and members.  
+{  
+=Both assertion and reason are true, and the reason is the correct explanation  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+}
+
+ 
+Assertion: The `final` keyword in Java prevents inheritance.  
+Reason: A final class cannot be subclassed.  
+{  
+=Both assertion and reason are true, and the reason is the correct explanation  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+~Both assertion and reason are false  
+}
+
+ 
+Assertion: Java can run on any operating system with JVM.  
+Reason: Java is compiled to bytecode that the JVM executes.  
+{  
+=Both assertion and reason are true, and the reason is the correct explanation  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+}
+
+
+  
+Statement 1: Java is an object-oriented programming language.  
+Statement 2: Java supports encapsulation, inheritance, and polymorphism.  
+{  
+=Both statements are true, and the second statement is the correct explanation for the first statement  
+~Both statements are true, but the second statement is not the correct explanation for the first statement  
+~The first statement is true, but the second statement is false  
+~The first statement is false, but the second statement is true  
+}
+
+  
+Statement 1: Java is platform-independent.  
+Statement 2: Java applications compile to machine code specific to each OS.  
+{  
+=The first statement is true, but the second statement is false  
+~Both statements are true, and the second statement is the correct explanation for the first statement  
+~Both statements are true, but the second statement is not the correct explanation for the first statement  
+~Both statements are false  
+}
+
+  
+Statement 1: Encapsulation hides the internal details of objects.  
+Statement 2: Public access to all variables supports encapsulation.  
+{  
+=The first statement is true, but the second statement is false  
+~Both statements are true  
+~Both statements are false  
+~Both statements are true, but the second statement is not the correct explanation for the first statement  
+}
+
+ 
+Statement 1: Inheritance allows code reuse in Java.  
+Statement 2: Java uses the `implements` keyword for inheritance.  
+{  
+=The first statement is true, but the second statement is false  
+~Both statements are true  
+~Both statements are true, but the second statement is not the correct explanation for the first statement  
+~Both statements are false  
+}
+
+  
+Statement 1: Interfaces are used for achieving full abstraction in Java 7.  
+Statement 2: Interfaces can have non-abstract methods in Java 7.  
+{  
+=The first statement is true, but the second statement is false  
+~Both statements are false  
+~Both statements are true  
+~Both statements are true, but the second statement is not the correct explanation for the first statement  
+}
+
+  
+Statement 1: Method overloading is an example of compile-time polymorphism.  
+Statement 2: It is resolved at runtime based on the object's type.  
+{  
+=The first statement is true, but the second statement is false  
+~Both statements are true  
+~Both statements are false  
+~Both statements are true, but the second statement is not the correct explanation for the first statement  
+}
+
+ 
+Statement 1: Java uses garbage collection to manage memory.  
+Statement 2: Java developers must manually release memory.  
+{  
+=The first statement is true, but the second statement is false  
+~Both statements are true  
+~Both statements are false  
+~Both statements are true, but the second statement is not the correct explanation  
+}
+
+ 
+Statement 1: Abstract classes can contain both abstract and concrete methods.  
+Statement 2: Abstract classes can be instantiated directly.  
+{  
+=The first statement is true, but the second statement is false  
+~Both statements are true  
+~Both statements are false  
+~Both statements are true, but the second statement is not the correct explanation  
+}
+
+  
+Statement 1: Java allows a class to extend multiple classes.  
+Statement 2: Java supports multiple inheritance through interfaces.  
+{  
+=The first statement is false, but the second statement is true  
+~Both statements are false  
+~Both statements are true  
+~The first statement is true, but the second statement is false  
+}
+
+ 
+Statement 1: The `main` method in Java must be static.  
+Statement 2: This allows the JVM to invoke it without creating an object.  
+{  
+=Both statements are true, and the second statement is the correct explanation for the first statement  
+~Both statements are true, but the second statement is not the correct explanation  
+~The first statement is true, but the second statement is false  
+~The first statement is false, but the second statement is true  
+}
+
+ 
+Statement 1: Java supports multi-threading.  
+Statement 2: This allows execution of multiple threads sequentially.  
+{  
+=The first statement is true, but the second statement is false  
+~Both statements are true  
+~Both statements are false  
+~Both statements are true, but the second statement is not the correct explanation  
+}
+
+ 
+Statement 1: A class in Java can have only one constructor.  
+Statement 2: Overloading constructors is not allowed.  
+{  
+=Both statements are false  
+~The first statement is true, but the second statement is false  
+~Both statements are true  
+~The first statement is false, but the second statement is true  
+}
+
+ 
+Statement 1: Java programs must be compiled before running.  
+Statement 2: Compilation converts Java code to bytecode.  
+{  
+=Both statements are true, and the second statement is the correct explanation for the first statement  
+~Both statements are true, but the second statement is not the correct explanation  
+~The first statement is true, but the second statement is false  
+~Both statements are false  
+}
+
+ 
+Statement 1: Java arrays can store values of different data types.  
+Statement 2: Arrays in Java are homogeneous.  
+{  
+=The first statement is false, but the second statement is true  
+~Both statements are true  
+~Both statements are false  
+~The first statement is true, but the second statement is false  
+}
+
+ 
+Statement 1: Abstract classes can be inherited.  
+Statement 2: An abstract method must be implemented in a subclass.  
+{  
+=Both statements are true, and the second statement is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first is true, but the second is false  
+~Both statements are false  
+}
+
+ 
+Statement 1: Java provides both checked and unchecked exceptions.  
+Statement 2: All exceptions in Java must be handled explicitly.  
+{  
+=The first statement is true, but the second statement is false  
+~Both statements are false  
+~Both statements are true  
+~The first statement is false, but the second is true  
+}
+
+ 
+Statement 1: Encapsulation increases code complexity.  
+Statement 2: It hides the implementation and secures data.  
+{  
+=The first statement is false, but the second is true  
+~Both statements are false  
+~Both statements are true  
+~The first statement is true, but the second is false  
+}
+
+  
+Statement 1: Interfaces allow default methods in Java 8.  
+Statement 2: Java 7 interfaces can include implemented methods.  
+{  
+=The first statement is true, but the second statement is false  
+~Both statements are true  
+~Both statements are false  
+~The first statement is false, but the second statement is true  
+}
+
+ 
+Statement 1: Java provides access modifiers like private, public, and protected.  
+Statement 2: Access modifiers determine the visibility of classes and members.  
+{  
+=Both statements are true, and the second is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first is true, the second is false  
+~Both statements are false  
+}
+
+ 
+Statement 1: Java uses the `class` keyword to define a class.  
+Statement 2: All class names must start with a lowercase letter.  
+{  
+=The first statement is true, but the second statement is false  
+~Both statements are true  
+~Both statements are false  
+~The first is false, but the second is true  
+}
+
+
+Which of the following best defines encapsulation in Java?  
+{  
+=Combining data and methods into a single unit  
+~Providing public access to class variables  
+~Allowing multiple inheritance using classes  
+~Overriding methods with different names  
+}
+
+ 
+Which keyword is used to inherit a class in Java?  
+{  
+=extends  
+~inherits  
+~implement  
+~derive  
+}
+
+
+Which of the following statements about Java interfaces is correct (Java 7)?  
+{  
+=All methods in interfaces are abstract and public by default  
+~Interfaces can be instantiated directly  
+~Interfaces can contain constructors  
+~Interfaces must extend classes  
+}
+
+ 
+What type of polymorphism is achieved using method overloading?  
+{  
+=Compile-time polymorphism  
+~Runtime polymorphism  
+~Dynamic polymorphism  
+~Overridden polymorphism  
+}
+
+ 
+Which of the following is not a primitive data type in Java?  
+{  
+=String  
+~char  
+~int  
+~boolean  
+}
+
+
+Which method is considered the entry point of a Java program?  
+{  
+=main  
+~start  
+~run  
+~init  
+}
+
+  
+Which of the following is used to create objects in Java?  
+{  
+=new  
+~object  
+~class  
+~make  
+}
+
+ 
+Which of these operators is a logical operator?  
+{  
+=&&  
+~==  
+~++  
+~%  
+}
+
+  
+Which of the following concepts refers to hiding internal details and showing only functionality?  
+{  
+=Abstraction  
+~Encapsulation  
+~Inheritance  
+~Polymorphism  
+}
+
+ 
+Which of the following allows the JVM to invoke the `main` method without creating an object?  
+{  
+=It is declared as static  
+~It is private  
+~It returns an object  
+~It is final  
+}
+
+ 
+What is the purpose of a constructor in Java?  
+{  
+=To initialize objects  
+~To define interfaces  
+~To destroy objects  
+~To access private variables  
+}
+
+ 
+Which keyword is used to define an abstract class in Java?  
+{  
+=abstract  
+~interface  
+~final  
+~extends  
+}
+
+
+Which concept enables a Java class to take on multiple forms?  
+{  
+=Polymorphism  
+~Abstraction  
+~Encapsulation  
+~Casting  
+}
+
+
+Which of the following is a valid loop in Java?  
+{  
+=for  
+~loop  
+~iterate  
+~repeat  
+}
+
+
+What does JVM stand for?  
+{  
+=Java Virtual Machine  
+~Java Variable Method  
+~Java Version Manager  
+~Java Visual Module  
+}
+
+
+Which keyword prevents a class from being extended?  
+{  
+=final  
+~static  
+~abstract  
+~private  
+}
+
+  
+Which of the following is used to implement interfaces?  
+{  
+=implements  
+~extends  
+~uses  
+~inherits  
+}
+
+ 
+Which data type can store decimal values in Java?  
+{  
+=float  
+~int  
+~char  
+~boolean  
+}
+
+ 
+Which of the following handles exceptions in Java?  
+{  
+=try-catch  
+~do-while  
+~if-else  
+~break-continue  
+}
+  
+Which concept ensures that sensitive data is hidden from unauthorized access?  
+{  
+=Encapsulation  
+~Abstraction  
+~Inheritance  
+~Polymorphism  
+}
+
+
+Which of the following best defines software engineering?
+{
+=The application of engineering principles to software development
+~The use of hardware to test software
+~A method of installing software systems
+~A way to manufacture physical products
+}
+
+
+Statement 1: Software engineering includes planning, designing, implementing, and maintaining software.  
+Statement 2: These processes mirror those used in manufacturing physical products.  
+{
+=Both statements are true, but the second statement is not the correct explanation for the first statement
+~Both statements are true, and the second is the correct explanation
+~The first statement is false, but the second is true
+~The first statement is true, but the second is false
+}
+
+
+Assertion: Requirement elicitation is the easiest phase of software engineering.  
+Reason: Customers always provide clear and complete requirements.  
+{
+=Both assertion and reason are false
+~Both assertion and reason are true
+~The assertion is false, but the reason is true
+~The assertion is true, but the reason is false
+}
+
+
+Software documentation includes multiple types.  
+A) Test plans and test cases  
+B) Source code comments and API references  
+C) Architectural designs  
+D) Operating system commands  
+{
+=A, B, C are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, D are correct  
+}
+
+
+Which of the following statements about the Prototype Model is correct?
+{
+=It emphasizes early feedback and iterative improvement
+~It produces the final software on the first try
+~It avoids user interaction during development
+~It is unsuitable for situations with evolving requirements
+}
+
+
+Statement 1: Spiral model combines prototyping with risk analysis.  
+Statement 2: It is suitable for high-risk projects.  
+{
+=Both statements are true, and the second is the correct explanation
+~Both statements are true, but the second is not the correct explanation
+~The first is true, the second is false
+~Both statements are false
+}
+
+
+Which of the following are benefits of the Incremental Model?  
+A) Early software delivery  
+B) Increased hardware cost  
+C) Flexibility to change  
+D) Easier testing  
+{
+=A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+~A, B, D are correct  
+}
+
+
+Assertion: Waterfall model is ideal for large, dynamic projects.  
+Reason: Waterfall supports iteration and frequent change.  
+{
+=Both assertion and reason are false  
+~The assertion is true, but the reason is false  
+~The assertion is false, but the reason is true  
+~Both assertion and reason are true
+}
+
+
+Which of the following is a drawback of the Prototype Model?  
+{
+=Users may develop unrealistic expectations about delivery  
+~It prevents early feedback from users  
+~It is ideal for manufacturing environments  
+~It offers no insight into system feasibility
+}
+
+
+Which of the following statements about programs and software are correct?  
+A) A program is a subset of software  
+B) Software includes documentation and manuals  
+C) Programs are written instructions only  
+D) Software excludes user manuals  
+{
+=A, B, C are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, D are correct  
+}
+
+
+Assertion: Maintenance is a one-time activity after deployment.  
+Reason: Software does not need frequent updates after release.  
+{
+=Both assertion and reason are false  
+~The assertion is true, but the reason is false  
+~The assertion is false, but the reason is true  
+~Both assertion and reason are true
+}
+
+
+Which of the following best describes maintainability?
+{
+=The ease of modifying and updating software
+~The ability to scale software for large databases
+~The ability to develop a product without documentation
+~The ability to build software with no errors
+}
+
+
+Statement 1: Documentation helps in software maintainability.  
+Statement 2: It provides clarity and consistency across development teams.  
+{
+=Both statements are true, and the second is the correct explanation for the first
+~Both statements are true, but the second is not the correct explanation
+~The first is true, but the second is false
+~Both statements are false
+}
+
+
+The Waterfall model is characterized by:  
+A) Rigid sequential phases  
+B) Strong support for change  
+C) Well-defined milestones  
+D) Early working versions  
+{
+=A, C are correct  
+~A, B, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+
+Which of the following is true about software?  
+{
+=Software does not physically deteriorate over time  
+~Software requires physical materials to manufacture  
+~Software cannot be updated once deployed  
+~Software must degrade with each use  
+}
+
+
+Assertion: Software does not wear out like physical hardware.  
+Reason: It operates in the digital realm and is not subject to physical friction.  
+{
+=Both assertion and reason are true, and the reason is the correct explanation for the assertion  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+}
+
+
+Which are characteristics of software engineering?  
+A) Systematic approach  
+B) Intuitive guesses  
+C) Engineering principles applied  
+D) Structured methodology  
+{
+=A, C, D are correct  
+~A, B, C are correct  
+~B, C, D are correct  
+~A, B, D are correct  
+}
+
+
+Statement 1: Agile is more flexible than Waterfall.  
+Statement 2: Agile allows iterative development and user feedback.  
+{
+=Both statements are true, and the second statement is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first is false, but the second is true  
+~The first is true, but the second is false  
+}
+
+
+Which of the following is a valid description of "scalability" in software?  
+{
+=The software’s ability to handle increasing workload  
+~The software’s ability to resist malware  
+~The software’s ability to generate documentation  
+~The software’s ability to auto-update its features  
+}
+
+
+Assertion: Throwaway prototypes are meant to evolve into the final product.  
+Reason: They serve as the initial building block of the production system.  
+{
+=Both assertion and reason are false  
+~The assertion is true, but the reason is false  
+~The assertion is false, but the reason is true  
+~Both assertion and reason are true  
+}
+
+
+Which of the following are common challenges in software development?  
+A) Inadequate requirements gathering  
+B) Poor project management  
+C) Infinite maintenance  
+D) Unlimited funding  
+{
+=A, B are correct  
+~B, C, D are correct  
+~A, C, D are correct  
+~A, B, C are correct  
+}
+
+  
+Assertion: Agile methodology limits collaboration with customers.  
+Reason: Agile is focused only on technical implementation.  
+{
+=Both assertion and reason are false  
+~The assertion is true, but the reason is false  
+~The assertion is false, but the reason is true  
+~Both assertion and reason are true  
+}
+
+  
+Which of the following techniques are used in requirements elicitation?  
+A) Interviews  
+B) Brainstorming  
+C) Delphi  
+D) Debugging  
+{
+=A, B, C are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, D are correct  
+}
+
+  
+Statement 1: FAST is a collaborative requirements technique.  
+Statement 2: QFD focuses on capturing user priorities.  
+{
+=Both statements are true  
+~The first statement is true, but the second is false  
+~Both statements are false  
+~Both statements are true, and the second is the correct explanation  
+}
+
+ 
+Which of the following is true about the Spiral Model?  
+{
+=It emphasizes risk analysis in every iteration  
+~It avoids customer feedback  
+~It is linear and rigid  
+~It prevents budget overruns  
+}
+
+  
+Which attributes define high-quality software?  
+A) Usability  
+B) Portability  
+C) Immutability  
+D) Security  
+{
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+ 
+Assertion: Software process models are irrelevant in modern development.  
+Reason: Ad-hoc programming achieves better results.  
+{
+=Both assertion and reason are false  
+~The assertion is false, but the reason is true  
+~Both assertion and reason are true  
+~The assertion is true, but the reason is false  
+}
+
+  
+Which of the following statements about requirement analysis is correct?  
+{
+=It is crucial to define what the system should do before development  
+~It begins only after coding is complete  
+~It is optional in small-scale projects  
+~It occurs after the system is deployed  
+}
+
+
+Statement 1: Coding must follow a well-defined design.  
+Statement 2: This ensures maintainability and simplifies testing.  
+{
+=Both statements are true, and the second is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first is true, the second is false  
+~Both statements are false  
+}
+
+ 
+Which model emphasizes early and continuous software delivery?  
+{
+=Incremental Model  
+~Waterfall Model  
+~Spiral Model  
+~Throwaway Prototype  
+}
+
+ 
+Which of the following are true about software as opposed to hardware?  
+A) Software is intangible  
+B) Software can be duplicated without degradation  
+C) Software experiences physical wear  
+D) Software can be distributed globally in seconds  
+{
+=A, B, D are correct  
+~A, B, C are correct  
+~B, C, D are correct  
+~A, C, D are correct  
+}
+
+ 
+Assertion: Requirements remain constant during a project.  
+Reason: Customers always understand their needs fully before development.  
+{
+=Both assertion and reason are false  
+~Both assertion and reason are true  
+~The assertion is true, but the reason is false  
+~The assertion is false, but the reason is true  
+}
+
+ 
+Which of the following statements about software documentation is correct?  
+{
+=It includes installation guides and design documents  
+~It is limited to comments in the source code  
+~It only matters in large enterprise projects  
+~It is not relevant to the maintenance phase  
+}
+
+  
+Which of these are software quality attributes?  
+A) Modularity  
+B) Reusability  
+C) Fragility  
+D) Testability  
+{
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+ 
+Statement 1: Waterfall model is best suited for evolving requirements.  
+Statement 2: Waterfall discourages phase overlapping.  
+{
+=The first statement is false, but the second is true  
+~Both statements are false  
+~Both statements are true  
+~The first statement is true, but the second is false  
+}
+
+ 
+Which of the following best defines portability?  
+{
+=The ability to run software across different platforms  
+~The ability to modify code easily  
+~The ability to write code in any language  
+~The ability to debug software remotely  
+}
+
+  
+Which are types of software maintenance?  
+A) Corrective  
+B) Adaptive  
+C) Perfective  
+D) Defensive  
+{
+=A, B, C are correct  
+~B, C, D are correct  
+~A, C, D are correct  
+~A, B, D are correct  
+}
+
+  
+Assertion: All software projects begin with coding.  
+Reason: Coding is the first and most important phase in SDLC.  
+{
+=Both assertion and reason are false  
+~The assertion is true, but the reason is false  
+~The assertion is false, but the reason is true  
+~Both assertion and reason are true  
+}
+
+ 
+Which of the following best describes feasibility study?  
+{
+=Analyzing whether a project is viable in terms of cost and technology  
+~Building a prototype to test performance  
+~Installing software on a server  
+~Testing software on users  
+}
+
+ 
+Which phases are included in SDLC?  
+A) Design  
+B) Testing  
+C) Deployment  
+D) Translation  
+{
+=A, B, C are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, D are correct  
+}
+ 
+
+Assertion: The Prototype Model is effective when requirements are unclear.  
+Reason: It allows users to interact with a basic version of the system early.  
+{
+=Both assertion and reason are true, and the reason is the correct explanation  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+~The assertion is false, but the reason is true  
+~Both assertion and reason are false  
+}
+
+ 
+Which of the following are types of software prototypes?  
+A) Evolutionary  
+B) Throwaway  
+C) Static  
+D) Disposable  
+{
+=A, B are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, D are correct  
+}
+
+  
+Which attribute measures how easy it is to test software?  
+{
+=Testability  
+~Reliability  
+~Portability  
+~Usability  
+}
+
+  
+Statement 1: Delphi is a structured group communication technique.  
+Statement 2: It is used to build consensus in requirement elicitation.  
+{
+=Both statements are true, and the second is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first is true, but the second is false  
+~Both statements are false  
+}
+
+  
+What does the Spiral Model emphasize at every stage?  
+{
+=Risk analysis  
+~Functional decomposition  
+~Waterfall planning  
+~Requirement freezing  
+}
+
+  
+Which of the following are goals of software testing?  
+A) Identify bugs  
+B) Ensure performance  
+C) Ignore minor issues  
+D) Validate correctness  
+{
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+ 
+Assertion: Agile is a sequential methodology.  
+Reason: It follows the Waterfall model with added feedback.  
+{
+=Both assertion and reason are false  
+~The assertion is false, but the reason is true  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are true  
+}
+
+ 
+Which of these are phases of requirement analysis?  
+A) Elicitation  
+B) Documentation  
+C) Design  
+D) Review  
+{
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+  
+Statement 1: Documentation supports long-term software maintenance.  
+Statement 2: It is unnecessary if the code is well-written.  
+{
+=The first statement is true, but the second is false  
+~Both statements are false  
+~Both statements are true  
+~The first statement is false, but the second is true  
+}
+
+  
+Which of the following are benefits of DevOps?  
+A) Continuous integration  
+B) Longer delivery cycles  
+C) Better collaboration  
+D) Faster releases  
+{
+=A, C, D are correct  
+~A, B, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+ 
+
+Assertion: The Waterfall model supports minimal backtracking.  
+Reason: Each phase is completed before moving to the next.  
+{
+=Both assertion and reason are true, and the reason is the correct explanation  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+}
+
+ 
+Which quality attribute ensures software works under expected conditions?  
+{
+=Reliability  
+~Portability  
+~Reusability  
+~Testability  
+}
+
+ 
+Which of the following are communication gaps in requirement engineering?  
+A) Different technical backgrounds  
+B) Clear goals  
+C) Misunderstood expectations  
+D) Use of jargon  
+{
+=A, C, D are correct  
+~B, C, D are correct  
+~A, B, D are correct  
+~A, B, C are correct  
+}
+
+ 
+Statement 1: Software can be installed on any hardware without changes.  
+Statement 2: Portability allows software to run across different environments.  
+{
+=The first statement is false, but the second is true  
+~Both statements are true  
+~Both statements are false  
+~The first statement is true, but the second is false  
+}
+
+  
+Which of these are characteristics of evolutionary prototypes?  
+A) Continuously improved  
+B) Discarded after feedback  
+C) Developed over time  
+D) Adapted to user input  
+{
+=A, C, D are correct  
+~B, C, D are correct  
+~A, B, D are correct  
+~A, B, C are correct  
+}
+
+ 
+What is a major disadvantage of the Spiral Model?  
+{
+=It involves high administrative overhead  
+~It prevents early risk detection  
+~It lacks structure  
+~It is suitable for small projects only  
+}
+
+
+Assertion: Structured interviews allow more discovery than open-ended ones.  
+Reason: Structured interviews follow a fixed agenda.  
+{
+=The assertion is false, but the reason is true  
+~Both assertion and reason are true  
+~Both assertion and reason are false  
+~The assertion is true, but the reason is false  
+}
+
+  
+Which of the following best describes modularity?  
+{
+=Breaking down software into independent components  
+~Combining code into one large class  
+~Using only one function for all tasks  
+~Creating repetitive code for clarity  
+}
+
+ 
+Which are types of requirement categories?  
+A) Known  
+B) Unknown  
+C) Undreamt  
+D) Dismissed  
+{
+=A, B, C are correct  
+~B, C, D are correct  
+~A, C, D are correct  
+~A, B, D are correct  
+}
+
+ 
+Statement 1: Software does not experience mechanical failure.  
+Statement 2: Software operates digitally and doesn't wear out physically.  
+{
+=Both statements are true, and the second is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first is false, the second is true  
+~Both statements are false  
+}
+
+ 
+Which of the following techniques are part of requirements elicitation?  
+A) FAST  
+B) QFD  
+C) Prototyping  
+D) System Testing  
+{
+=A, B, C are correct  
+~A, B, D are correct  
+~B, C, D are correct  
+~A, C, D are correct  
+}
+
+ 
+Assertion: Requirement engineering is a one-time process completed during feasibility analysis.  
+Reason: Once requirements are written, they don’t change.  
+{
+=Both assertion and reason are false  
+~The assertion is true, but the reason is false  
+~The assertion is false, but the reason is true  
+~Both assertion and reason are true  
+}
+
+
+Which of the following best defines the goal of the feasibility study?  
+{
+=To assess whether the proposed software solution is viable  
+~To begin writing the first prototype  
+~To define the user interface  
+~To finalize the deployment tools  
+}
+
+ 
+Statement 1: The waterfall model is suitable for projects with fixed requirements.  
+Statement 2: It progresses in sequential stages with limited flexibility.  
+{
+=Both statements are true, and the second statement is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first is false, but the second is true  
+~Both statements are false  
+}
+
+
+Which of the following challenges are faced during requirement engineering?  
+A) Evolving user expectations  
+B) Communication gaps  
+C) Unlimited budgets  
+D) Time constraints  
+{
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+
+Assertion: Brainstorming eliminates bias in idea generation.  
+Reason: All ideas are criticized and filtered immediately.  
+{
+=The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+~Both assertion and reason are true  
+~The assertion is false, but the reason is true  
+}
+
+ 
+Which of the following are included in design documentation?  
+A) Component diagrams  
+B) Architecture plans  
+C) Requirement specifications  
+D) Interface designs  
+{
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+  
+Which quality attribute ensures users can understand and operate the software easily?  
+{
+=Usability  
+~Security  
+~Maintainability  
+~Portability  
+}
+
+
+Statement 1: The Spiral model helps in early risk detection.  
+Statement 2: Risk analysis is an essential activity in each cycle of the model.  
+{
+=Both statements are true, and the second is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first is true, but the second is false  
+~Both statements are false  
+}
+
+
+Which of the following are examples of software maintenance types?  
+A) Perfective  
+B) Corrective  
+C) Preventive  
+D) Adaptive  
+{
+=A, B, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+~A, C, D are correct  
+}
+
+
+Assertion: The DevOps model separates development and operations teams.  
+Reason: Its goal is to reduce collaboration for faster delivery.  
+{
+=Both assertion and reason are false  
+~The assertion is false, but the reason is true  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are true  
+}
+
+ 
+Which of the following statements about the Incremental Model are correct?  
+A) It allows early feedback  
+B) It builds the system in small increments  
+C) It delivers all features at once  
+D) It combines waterfall structure with flexibility  
+{
+=A, B, D are correct  
+~A, B, C are correct  
+~B, C, D are correct  
+~A, C, D are correct  
+}
+
+
+What is the primary purpose of requirement documentation?  
+{
+=To formally define what the software should do  
+~To write all possible errors the user might make  
+~To prepare testing scripts  
+~To describe hardware specifications  
+}
+ 
+ 
+Statement 1: Open-ended interviews promote exploratory discussions.  
+Statement 2: Structured interviews are used for detailed data collection.  
+{
+=Both statements are true  
+~Both statements are false  
+~The first is true, the second is false  
+~The first is false, the second is true  
+}
+
+ 
+Which quality attribute is focused on resisting unauthorized access and protecting data?  
+{
+=Security  
+~Modularity  
+~Efficiency  
+~Scalability  
+}
+
+ 
+Assertion: The Waterfall model is highly flexible during late stages.  
+Reason: Requirements can be easily changed during testing.  
+{
+=Both assertion and reason are false  
+~The assertion is true, but the reason is false  
+~The assertion is false, but the reason is true  
+~Both assertion and reason are true  
+}
+
+ 
+Which of the following are techniques for documenting requirements?  
+A) Use cases  
+B) User manuals  
+C) SRS  
+D) API logs  
+{
+=A, C are correct  
+~A, B, C are correct  
+~B, C, D are correct  
+~A, C, D are correct  
+}
+
+ 
+Which of the following statements are true about evolutionary prototypes?  
+A) They evolve into the final product  
+B) They support changing requirements  
+C) They are discarded after feedback  
+D) They are updated through iterations  
+{
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+  
+Which SDLC model combines both iterative development and structured stages?  
+{
+=Incremental Model  
+~Agile Model  
+~Throwaway Model  
+~Waterfall Model  
+}
+
+ 
+Statement 1: Requirements analysis influences design and testing.  
+Statement 2: Errors in requirements can propagate to later stages.  
+{
+=Both statements are true, and the second is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first statement is false, the second is true  
+~Both statements are false  
+}
+ 
+
+Which of the following are considered software quality attributes?  
+A) Efficiency  
+B) Modularity  
+C) Fragility  
+D) Reusability  
+{
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+ 
+Assertion: Usability focuses on internal system logic.  
+Reason: It ensures maintainability by developers.  
+{
+=Both assertion and reason are false  
+~The assertion is true, but the reason is false  
+~The assertion is false, but the reason is true  
+~Both assertion and reason are true  
+}
+
+  
+Which of the following statements about software process models is true?  
+{
+=They provide structured guidance for software development  
+~They are only used in traditional industries  
+~They eliminate the need for testing  
+~They replace coding altogether  
+}
+
+ 
+Statement 1: Corrective maintenance addresses bugs found after deployment.  
+Statement 2: Adaptive maintenance prepares software for hardware upgrades.  
+{
+=Both statements are true  
+~Both statements are false  
+~The first statement is false, the second is true  
+~The first statement is true, the second is false  
+}
+
+ 
+Which of the following are commonly used in software testing?  
+A) Unit tests  
+B) User acceptance tests  
+C) Integration tests  
+D) Stress tests  
+{
+=A, B, C, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, D are correct  
+}
+
+ 
+Which attribute ensures software can grow without losing performance?  
+{
+=Scalability  
+~Security  
+~Portability  
+~Usability  
+}
+
+ 
+Assertion: Elicitation is often error-prone and challenging.  
+Reason: It requires clear communication between developers and stakeholders.  
+{
+=Both assertion and reason are true, and the reason is the correct explanation  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+}
+
+
+Which phases are part of the software development life cycle?  
+A) Maintenance  
+B) Implementation  
+C) Revenue modeling  
+D) Design  
+{
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+ 
+Statement 1: Throwaway prototypes are discarded after validating ideas.  
+Statement 2: They become the foundation of the final system.  
+{
+=The first statement is true, but the second is false  
+~Both statements are true  
+~Both statements are false  
+~The first is false, but the second is true  
+}
+
+ 
+Which of the following are characteristics of a good SRS (Software Requirement Specification)?  
+A) Complete  
+B) Ambiguous  
+C) Traceable  
+D) Clear  
+{
+=A, C, D are correct  
+~B, C, D are correct  
+~A, B, D are correct  
+~A, B, C are correct  
+}
+
+  
+Which SDLC model emphasizes customer evaluation in each loop?  
+{
+=Spiral Model  
+~Waterfall Model  
+~DevOps Model  
+~Incremental Model  
+}
+
+  
+Assertion: Requirement documentation helps with future maintenance.  
+Reason: It eliminates the need for any further communication with users.  
+{
+=The assertion is true, but the reason is false  
+~Both assertion and reason are true  
+~Both assertion and reason are false  
+~The assertion is false, but the reason is true  
+}
+
+ 
+Which of the following are problems commonly faced in the software industry?  
+A) Cost overruns  
+B) Schedule delays  
+C) High-quality results always  
+D) Quality issues  
+{
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+ 
+Statement 1: Structured interviews gather detailed information.  
+Statement 2: They follow a pre-defined question set.  
+{
+=Both statements are true, and the second is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first is false, the second is true  
+~Both statements are false  
+}
+
+ 
+Which elicitation techniques promote collaboration and creativity?  
+A) Brainstorming  
+B) Delphi  
+C) FAST  
+D) Deployment  
+{
+=A, B, C are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, D are correct  
+}
+
+
+Assertion: The prototype model avoids customer interaction.  
+Reason: Requirements are assumed to be clear and final.  
+{
+=Both assertion and reason are false  
+~The assertion is true, but the reason is false  
+~The assertion is false, but the reason is true  
+~Both assertion and reason are true  
+}
+
+
+Which attribute ensures software can be reused in other applications?  
+{
+=Reusability  
+~Testability  
+~Scalability  
+~Security  
+}
+
+ 
+Statement 1: The design phase determines how the software will function.  
+Statement 2: It follows after requirement specification.  
+{
+=Both statements are true, and the second is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first is false, the second is true  
+~Both statements are false  
+}
+
+ 
+Which of the following are key stakeholders in requirement elicitation?  
+A) Customers  
+B) Developers  
+C) Project managers  
+D) System testers  
+{
+=A, B, C are correct  
+~B, C, D are correct  
+~A, C, D are correct  
+~A, B, D are correct  
+}
+
+
+Which of the following best defines the goal of software engineering?  
+{
+=To systematically build reliable and maintainable software  
+~To reduce the cost of hardware  
+~To eliminate the need for testing  
+~To ensure manual processes continue  
+}
+
+Which of the following are phases of the software design process?  
+A) Problem analysis  
+B) Architectural design  
+C) Construction testing  
+D) Interface design  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+
+Assertion: High cohesion means a module performs multiple unrelated tasks.  
+Reason: Cohesion is about tightly integrating various unrelated functionalities.  
+{  
+=Both assertion and reason are false  
+~Both assertion and reason are true  
+~The assertion is true, but the reason is false  
+~The assertion is false, but the reason is true  
+}
+
+
+What does modularity in software design promote?  
+{  
+=Decomposing systems into manageable and independent components  
+~Combining all modules into a monolithic structure  
+~Tightly coupling design elements  
+~Avoiding reuse of code  
+}
+
+Statement 1: Coupling is the degree of interdependence between software modules.  
+Statement 2: Low coupling is desirable in modular design.  
+{  
+=Both statements are true, and the second is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first is false, but the second is true  
+~Both statements are false  
+}
+
+Which of the following are examples of coupling types?  
+A) Data coupling  
+B) Control coupling  
+C) Cohesion coupling  
+D) Stamp coupling  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Assertion: Bottom-up design starts with identifying system-level components.  
+Reason: It focuses on integrating large subsystems first.  
+{  
+=Both assertion and reason are false  
+~The assertion is false, but the reason is true  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are true  
+}
+
+
+Which type of cohesion is considered the most desirable?  
+{  
+=Functional cohesion  
+~Logical cohesion  
+~Temporal cohesion  
+~Coincidental cohesion  
+}
+
+
+Statement 1: A good software design should have high cohesion and low coupling.  
+Statement 2: This leads to better maintainability and flexibility.  
+{  
+=Both statements are true, and the second is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first is true, the second is false  
+~Both statements are false  
+}
+
+
+Which of the following are characteristics of a good Software Design Document (SDD)?  
+A) Completeness  
+B) Ambiguity  
+C) Modifiability  
+D) Traceability  
+{  
+=A, C, D are correct  
+~A, B, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+
+Which of the following correctly describe a structure chart?  
+{  
+=A graphical representation of system modules and their relationships  
+~A detailed line-by-line code layout  
+~A class inheritance tree  
+~A UML activity diagram  
+}
+
+
+Assertion: Design documentation is optional if the source code is clear.  
+Reason: Most stakeholders can read and understand code directly.  
+{  
+=Both assertion and reason are false  
+~The assertion is true, but the reason is false  
+~The assertion is false, but the reason is true  
+~Both assertion and reason are true  
+}
+
+
+Which of these cohesion types are more desirable?  
+A) Functional  
+B) Sequential  
+C) Coincidental  
+D) Logical  
+{  
+=A, B are correct  
+~A, C are correct  
+~B, C are correct  
+~A, D are correct  
+}
+
+Statement 1: Pseudocode helps express design logic clearly.  
+Statement 2: It avoids language-specific syntax.  
+{  
+=Both statements are true, and the second is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first is false, the second is true  
+~Both statements are false  
+}
+
+Which of the following models are used for software design estimation?  
+A) Base estimation model  
+B) Empirical model  
+C) Post estimation model  
+D) Hierarchical model  
+{  
+=A, B, C are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, D are correct  
+}
+
+Which design approach begins with high-level system structure?  
+{  
+=Top-down design  
+~Bottom-up design  
+~Post estimation  
+~Data flow model  
+}
+
+
+Assertion: Stamp coupling refers to passing only what is necessary.  
+Reason: It improves modularity by reducing shared data.  
+{  
+=The assertion is false, but the reason is true  
+~Both assertion and reason are false  
+~Both assertion and reason are true  
+~The assertion is true, but the reason is false  
+}
+
+
+Which of the following are true about control coupling?  
+A) It involves passing flags to control logic flow  
+B) It leads to tight binding of modules  
+C) It is a sign of strong abstraction  
+D) It is desirable in layered design  
+{  
+=A, B are correct  
+~A, C are correct  
+~B, C are correct  
+~A, D are correct  
+}
+
+Statement 1: Pseudocode helps communicate design logic.  
+Statement 2: It is meant to be compiled and executed.  
+{  
+=The first statement is true, but the second is false  
+~Both statements are true  
+~Both statements are false  
+~The first is false, the second is true  
+}
+
+Which coupling type is the least desirable in software design?  
+{  
+=Content coupling  
+~Data coupling  
+~Control coupling  
+~Stamp coupling  
+}
+
+Which of the following design guidelines are recommended?  
+A) Low coupling  
+B) High cohesion  
+C) Duplicate modules  
+D) Clear abstraction  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Assertion: Top-down design begins with the identification of reusable components.  
+Reason: It aims to create low-level modules first and then combine them.  
+{  
+=Both assertion and reason are false  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are true  
+~The assertion is false, but the reason is true  
+}
+
+Which of the following are benefits of modular design?  
+A) Simplifies debugging  
+B) Enhances reusability  
+C) Reduces flexibility  
+D) Improves readability  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Which design model uses observed data and industry metrics to estimate project parameters?  
+{  
+=Empirical estimation model  
+~Base estimation model  
+~Post estimation model  
+~Top-down estimation model  
+}
+
+Statement 1: Coincidental cohesion refers to grouping unrelated tasks.  
+Statement 2: It is a highly desirable design quality.  
+{  
+=The first statement is true, but the second is false  
+~Both statements are true  
+~Both statements are false  
+~The first is false, the second is true  
+}
+
+Which of the following elements are included in a good SDD (Software Design Document)?  
+A) Architectural design  
+B) Design rationale  
+C) Code snippets  
+D) Interface specifications  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Assertion: Design patterns are tailored solutions for common problems.  
+Reason: They provide reusable solutions within specific contexts.  
+{  
+=Both assertion and reason are true, and the reason is the correct explanation  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+~Both assertion and reason are false  
+}
+
+Which of these are valid reasons to prefer high cohesion?  
+A) Promotes single responsibility  
+B) Enhances testability  
+C) Improves code readability  
+D) Increases interdependence  
+{  
+=A, B, C are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, D are correct  
+}
+
+What does content coupling indicate?  
+{  
+=One module directly modifies the internal workings of another  
+~Modules communicate only via parameters  
+~Modules have no knowledge of each other  
+~Modules are grouped based on related tasks  
+}
+
+Statement 1: Functional cohesion is the strongest form of cohesion.  
+Statement 2: It means all parts of the module contribute to a single, well-defined task.  
+{  
+=Both statements are true, and the second is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first statement is false, the second is true  
+~Both statements are false  
+}
+
+Which of the following are types of design approaches?  
+A) Top-down  
+B) Bottom-up  
+C) Lateral  
+D) Modular  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Assertion: Design documentation should be generated after implementation.  
+Reason: Its purpose is only to justify already written code.  
+{  
+=Both assertion and reason are false  
+~The assertion is true, but the reason is false  
+~The assertion is false, but the reason is true  
+~Both assertion and reason are true  
+}
+
+Which of the following best describes a structure chart?  
+{  
+=A hierarchical diagram showing module relationships and interactions  
+~A diagram for system runtime behavior  
+~A test plan flow  
+~A software installation tree  
+}
+
+Which qualities make a design understandable?  
+A) Simplicity  
+B) Consistency  
+C) High coupling  
+D) Naming conventions  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Statement 1: Pseudocode is independent of any specific programming language.  
+Statement 2: It helps in designing algorithms at a high level.  
+{  
+=Both statements are true, and the second is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first is false, the second is true  
+~Both statements are false  
+}
+
+Which of the following are types of cohesion from weakest to strongest?  
+A) Coincidental  
+B) Logical  
+C) Functional  
+D) Sequential  
+{  
+=A, B, D, C are correct  
+~A, D, B, C are correct  
+~B, A, C, D are correct  
+~C, A, B, D are correct  
+}
+
+Which of the following statements about design estimation are correct?  
+A) Empirical estimation is based on historical data  
+B) Post estimation is done after coding  
+C) Base estimation depends on experience  
+D) Empirical estimation ignores actual effort  
+{  
+=A, B, C are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, D are correct  
+}
+
+Assertion: A structure chart is used during testing.  
+Reason: It outlines testing phases and coverage metrics.  
+{  
+=Both assertion and reason are false  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are true  
+~The assertion is false, but the reason is true  
+}
+
+Which of the following are consequences of high coupling?  
+A) Reduced maintainability  
+B) Tight module interdependency  
+C) Increased code reuse  
+D) Harder testing  
+{  
+=A, B, D are correct  
+~B, C, D are correct  
+~A, C, D are correct  
+~A, B, C are correct  
+}
+
+Statement 1: A base estimation model uses standard factors and experience.  
+Statement 2: It is useful in the early stages of design.  
+{  
+=Both statements are true  
+~Both statements are false  
+~The first statement is true, the second is false  
+~The first statement is false, the second is true  
+}
+
+Which of the following are true about modularity?  
+A) Helps manage system complexity  
+B) Encourages reuse  
+C) Prevents testing  
+D) Supports better abstraction  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Assertion: Data coupling occurs when modules share unrelated global variables.  
+Reason: It is the weakest form of coupling.  
+{  
+=Both assertion and reason are false  
+~The assertion is true, but the reason is false  
+~The assertion is false, but the reason is true  
+~Both assertion and reason are true  
+}
+
+Which of the following benefits does pseudocode offer?  
+A) Platform independence  
+B) Easy translation to code  
+C) Visual representation  
+D) Precise control flow  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Which of the following are software design principles?  
+A) Abstraction  
+B) Encapsulation  
+C) Complexity  
+D) Separation of concerns  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Statement 1: Bottom-up design identifies reusable modules first.  
+Statement 2: These modules are integrated to form higher-level systems.  
+{  
+=Both statements are true, and the second is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first statement is true, but the second is false  
+~Both statements are false  
+}
+
+Which coupling types are more desirable?  
+A) Data coupling  
+B) Control coupling  
+C) Stamp coupling  
+D) Content coupling  
+{  
+=A is correct  
+~B is correct  
+~C is correct  
+~D is correct  
+}
+
+Assertion: Stamp coupling passes only necessary data.  
+Reason: It encourages minimal data sharing between modules.  
+{  
+=The assertion is false, but the reason is true  
+~Both assertion and reason are true  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+}
+
+Which of these properties are associated with a well-designed software module?  
+A) Testability  
+B) Reusability  
+C) High content coupling  
+D) Maintainability  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Which of the following statements about design documentation is correct?  
+{  
+=It helps developers understand the system before coding  
+~It is not required if pseudocode is provided  
+~It is a substitute for testing documentation  
+~It is relevant only for UI elements  
+}
+
+Statement 1: Top-down design is effective when system architecture is prioritized.  
+Statement 2: It starts with decomposing system into sub-modules.  
+{  
+=Both statements are true, and the second is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first is false, the second is true  
+~Both statements are false  
+}
+
+Which are characteristics of temporal cohesion?  
+A) Grouped by timing of execution  
+B) Initialization routines  
+C) Grouped by functionality  
+D) Related to system boot  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Assertion: A high level of abstraction leads to more implementation detail exposure.  
+Reason: Abstraction hides complexity.  
+{  
+=The assertion is false, but the reason is true  
+~Both assertion and reason are false  
+~Both assertion and reason are true  
+~The assertion is true, but the reason is false  
+}
+
+Which of the following design artifacts help with system-level planning?  
+A) Structure chart  
+B) Class diagram  
+C) Code walkthrough  
+D) Design rationale  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Which of the following are design models used for effort estimation?  
+A) Empirical  
+B) Bottom-up  
+C) Base  
+D) Post  
+{  
+=A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+~A, B, D are correct  
+}
+
+Statement 1: Logical cohesion is based on operations that are logically categorized.  
+Statement 2: It often uses control flags to execute appropriate tasks.  
+{  
+=Both statements are true  
+~Both statements are false  
+~The first is true, the second is false  
+~The first is false, the second is true  
+}
+
+Which types of coupling are ranked from weakest to strongest?  
+A) Content  
+B) Control  
+C) Data  
+D) Stamp  
+{  
+=C, D, B, A are correct  
+~A, D, B, C are correct  
+~D, C, A, B are correct  
+~B, D, C, A are correct  
+}
+
+Assertion: Reusability leads to faster development and reduced defects.  
+Reason: Modules reused in multiple places are more likely to have hidden issues.  
+{  
+=The assertion is true, but the reason is false  
+~Both assertion and reason are true  
+~The assertion is false, but the reason is true  
+~Both assertion and reason are false  
+}
+
+Which statements are true about structure charts?  
+A) They show control relationships  
+B) They use arrows and modules  
+C) They replace class diagrams  
+D) They visualize system hierarchy  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Which coupling type passes entire data structures even if not needed?  
+{  
+=Stamp coupling  
+~Data coupling  
+~Content coupling  
+~Control coupling  
+}
+
+Statement 1: Coincidental cohesion often leads to design confusion.  
+Statement 2: It improves module clarity and reusability.  
+{  
+=The first statement is true, but the second is false  
+~Both statements are false  
+~Both statements are true  
+~The first is false, the second is true  
+}
+
+Which design model is most useful during the early planning phase?  
+{  
+=Base estimation model  
+~Post estimation model  
+~Control coupling model  
+~Reactive analysis model  
+}
+
+Assertion: Functional cohesion occurs when every part of a module contributes to a single well-defined task.  
+Reason: It’s considered the weakest form of cohesion.  
+{  
+=The assertion is true, but the reason is false  
+~Both assertion and reason are true  
+~Both assertion and reason are false  
+~The assertion is false, but the reason is true  
+}
+
+Which of the following are good design practices?  
+A) Reduce coupling  
+B) Increase cohesion  
+C) Group unrelated tasks together  
+D) Document assumptions  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+What does the principle of separation of concerns promote?  
+{  
+=Dividing a program into distinct sections, each handling a specific task  
+~Combining all functionality into one module  
+~Hiding all logic from end-users  
+~Sharing memory between modules  
+}
+
+Statement 1: Design quality impacts maintainability.  
+Statement 2: Maintainable designs reduce long-term costs.  
+{  
+=Both statements are true, and the second is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first statement is false, the second is true  
+~Both statements are false  
+}
+
+Which of the following are considered disadvantages of high coupling?  
+A) Poor maintainability  
+B) Tightly bound logic  
+C) Easier testing  
+D) Harder reusability  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Assertion: Post estimation helps in adjusting previous assumptions.  
+Reason: It’s done after design or coding is partially completed.  
+{  
+=Both assertion and reason are true, and the reason is the correct explanation  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+}
+
+Which of these are visual representations commonly used in design?  
+A) Structure chart  
+B) Class diagram  
+C) Pseudocode  
+D) Flowchart  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Which of the following apply to design rationale documentation?  
+A) Records reasons for design decisions  
+B) Tracks rejected alternatives  
+C) Makes decisions transparent  
+D) Acts as a test case repository  
+{  
+=A, B, C are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, D are correct  
+}
+
+Statement 1: Design helps bridge requirements and coding.  
+Statement 2: It provides structure and abstraction to solutions.  
+{  
+=Both statements are true, and the second is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first is true, the second is false  
+~Both statements are false  
+}
+
+Which of the following improve cohesion in a module?  
+A) Removing unrelated logic  
+B) Grouping similar functionalities  
+C) Keeping module tasks focused  
+D) Combining GUI and business logic  
+{  
+=A, B, C are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, D are correct  
+}
+
+Assertion: Design estimation models help manage project planning.  
+Reason: They estimate effort, time, and resources needed.  
+{  
+=Both assertion and reason are true, and the reason is the correct explanation  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are false  
+}
+
+Which are key design documentation elements?  
+A) Assumptions  
+B) Design rationale  
+C) Complete test scripts  
+D) Interface definitions  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Which of these types of coupling involve sharing only required data?  
+{  
+=Data coupling  
+~Stamp coupling  
+~Control coupling  
+~Content coupling  
+}
+
+Statement 1: Functional cohesion simplifies reuse and testing.  
+Statement 2: It complicates task separation and debugging.  
+{  
+=The first statement is true, but the second is false  
+~Both statements are true  
+~Both statements are false  
+~The first is false, the second is true  
+}
+
+Which estimation models are based on analogy and metrics?  
+A) Empirical model  
+B) Base estimation  
+C) Post estimation  
+D) Top-down model  
+{  
+=A is correct  
+~B is correct  
+~C is correct  
+~D is correct  
+}
+
+Assertion: Design should be considered only after development begins.  
+Reason: It delays unnecessary work and avoids rework.  
+{  
+=Both assertion and reason are false  
+~The assertion is false, but the reason is true  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are true  
+}
+
+Which of the following cohesion types lead to confusion in understanding the module's purpose?  
+A) Coincidental  
+B) Functional  
+C) Temporal  
+D) Logical  
+{  
+=A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+~A, B, D are correct  
+}
+
+Which of the following is a valid characteristic of high cohesion?  
+{  
+=All module parts are directed toward a single purpose  
+~Multiple independent functionalities exist in one module  
+~Module depends heavily on other modules  
+~Module logic is spread across the system  
+}
+
+Statement 1: Good abstraction helps hide unnecessary complexity.  
+Statement 2: It reduces clarity and documentation burden.  
+{  
+=The first statement is true, but the second is false  
+~Both statements are true  
+~Both statements are false  
+~The first is false, the second is true  
+}
+
+Which of the following support design quality?  
+A) Separation of concerns  
+B) High cohesion  
+C) Low coupling  
+D) Content coupling  
+{  
+=A, B, C are correct  
+~B, C, D are correct  
+~A, C, D are correct  
+~A, B, D are correct  
+}
+
+
+Which of the following are goals of software design?  
+A) Fulfill requirements  
+B) Increase system complexity  
+C) Simplify implementation  
+D) Enhance maintainability  
+{  
+=A, C, D are correct  
+~A, B, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Assertion: The main goal of modularity is to tightly bind components together.  
+Reason: Tightly integrated systems are easier to maintain.  
+{  
+=Both assertion and reason are false  
+~Both assertion and reason are true  
+~The assertion is true, but the reason is false  
+~The assertion is false, but the reason is true  
+}
+
+Which types of cohesion indicate better design?  
+A) Sequential cohesion  
+B) Functional cohesion  
+C) Temporal cohesion  
+D) Coincidental cohesion  
+{  
+=A, B are correct  
+~B, C are correct  
+~A, D are correct  
+~C, D are correct  
+}
+
+Statement 1: High coupling is a sign of poor modularity.  
+Statement 2: Poor modularity limits independent development.  
+{  
+=Both statements are true, and the second is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first statement is false, the second is true  
+~Both statements are false  
+}
+
+Which of the following are estimation techniques in software design?  
+A) Analogy-based estimation  
+B) Expert judgment  
+C) Code inspection  
+D) Function point analysis  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+What is the primary drawback of content coupling?  
+{  
+=It breaks encapsulation and increases maintenance risk  
+~It encourages reuse across modules  
+~It reduces inter-module dependency  
+~It simplifies debugging  
+}
+
+Which of the following improve module testability?  
+A) Low coupling  
+B) Clear interfaces  
+C) Temporal cohesion  
+D) Use of global variables  
+{  
+=A, B are correct  
+~A, C are correct  
+~B, C are correct  
+~C, D are correct  
+}
+
+Assertion: Abstraction allows hiding internal implementation details.  
+Reason: It enables developers to focus on what a module does, not how.  
+{  
+=Both assertion and reason are true, and the reason is the correct explanation  
+~The assertion is true, but the reason is false  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+~Both assertion and reason are false  
+}
+
+Which of the following statements about software design quality are true?  
+A) Quality affects maintenance effort  
+B) Poor design increases defect rate  
+C) High-quality design reduces rework  
+D) Design has no impact on performance  
+{  
+=A, B, C are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, D are correct  
+}
+
+Statement 1: Control coupling involves passing control flags between modules.  
+Statement 2: This indicates high independence between components.  
+{  
+=The first statement is true, but the second is false  
+~Both statements are true  
+~Both statements are false  
+~The first is false, the second is true  
+}
+
+Which of the following are components of a design rationale document?  
+A) Chosen approach  
+B) Rejected alternatives  
+C) Justification  
+D) Code base  
+{  
+=A, B, C are correct  
+~A, B, D are correct  
+~B, C, D are correct  
+~A, C, D are correct  
+}
+
+What type of design cohesion is shown when a module performs initialization at system start?  
+{  
+=Temporal cohesion  
+~Logical cohesion  
+~Functional cohesion  
+~Coincidental cohesion  
+}
+
+Assertion: Bottom-up design focuses on defining system-wide architecture first.  
+Reason: It prioritizes combining large modules into abstract processes.  
+{  
+=Both assertion and reason are false  
+~The assertion is true, but the reason is false  
+~The assertion is false, but the reason is true  
+~Both assertion and reason are true  
+}
+
+Which of the following are steps in the      design process?  
+A) Architectural design  
+B) Interface design  
+C) Database backup  
+D) Component-level design  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Statement 1: Functional cohesion simplifies module testing.  
+Statement 2: It improves reliability due to focused responsibilities.  
+{  
+=Both statements are true, and the second is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first is false, the second is true  
+~Both statements are false  
+}
+
+Which estimation model applies after implementation or during late-stage design?  
+{  
+=Post estimation model  
+~Empirical estimation model  
+~Base estimation model  
+~Top-down estimation  
+}
+
+Which of the following are design-level coupling types?  
+A) Data coupling  
+B) Control coupling  
+C) Module cohesion  
+D) Stamp coupling  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Assertion: High cohesion and high coupling produce the best modular designs.  
+Reason: Strong interaction among modules increases performance.  
+{  
+=Both assertion and reason are false  
+~The assertion is true, but the reason is false  
+~The assertion is false, but the reason is true  
+~Both assertion and reason are true  
+}
+
+Which of the following are true about abstraction in design?  
+A) Hides irrelevant detail  
+B) Enhances focus on essential elements  
+C) Increases complexity  
+D) Improves maintainability  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Statement 1: Top-down design begins at the high-level system view.  
+Statement 2: It proceeds by progressively refining subsystems.  
+{  
+=Both statements are true, and the second is the correct explanation  
+~Both statements are true, but the second is not the correct explanation  
+~The first statement is false, the second is true  
+~Both statements are false  
+}
+
+What does logical cohesion indicate?  
+{  
+=A module performs logically similar operations, but not necessarily in sequence  
+~A module executes one well-defined function  
+~A module executes tasks based on timing  
+~A module modifies another’s internal state  
+}
+
+Which of the following increase coupling?  
+A) Global variables  
+B) Shared control flags  
+C) Independent interfaces  
+D) Use of data abstraction  
+{  
+=A, B are correct  
+~A, C are correct  
+~B, C are correct  
+~C, D are correct  
+}
+
+Assertion: Stamp coupling leads to tighter module relationships than data coupling.  
+Reason: It passes entire data structures regardless of what is needed.  
+{  
+=Both assertion and reason are true, and the reason is the correct explanation  
+~Both assertion and reason are true, but the reason is not the correct explanation  
+~The assertion is false, but the reason is true  
+~Both assertion and reason are false  
+}
+
+Which of these are direct consequences of poor modular design?  
+A) High maintenance cost  
+B) Harder testing  
+C) Better reusability  
+D) Increased error propagation  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Statement 1: Functional cohesion implies modules are grouped by execution time.  
+Statement 2: It helps in grouping unrelated tasks together.  
+{  
+=Both statements are false  
+~The first statement is true, the second is false  
+~The first is false, the second is true  
+~Both statements are true  
+}
+
+Which of the following improve modular clarity?  
+A) Descriptive naming  
+B) Functional decomposition  
+C) Mixed responsibilities  
+D) High cohesion  
+{  
+=A, B, D are correct  
+~A, C, D are correct  
+~B, C, D are correct  
+~A, B, C are correct  
+}
+
+Which diagram shows how a software system is structured into modules?  
+{  
+=Structure chart  
+~Class diagram  
+~Sequence diagram  
+~State chart  
+}
+
+What is the decimal value of (1010)₂?  
+
+
+What is (1111)₂ in decimal?  
+
+
+Convert (8)₁₀ to binary.  
+
+
+Convert (15)₁₀ to binary.  
+
+
+What is (10)₈ in decimal?  
+
+
+What is (17)₈ in decimal?  
+
+Convert (F)₁₆ to decimal.  
+
+Convert (A)₁₆ to decimal.  
+
+Convert (1010)₂ to hexadecimal.  
+
+Convert (1111)₂ to hexadecimal.  
+
+What is (16)₁₀ in hexadecimal?  
+
+What is (255)₁₀ in hexadecimal?  
+
+Convert (20)₈ to decimal.  
+
+Convert (40)₈ to decimal.  
+
+Convert (1100)₂ to decimal.  
+
+Convert (1001)₂ to decimal.  
+
+Convert (5)₁₀ to binary.  
+
+Convert (7)₁₀ to binary.  
+
+Convert (12)₁₀ to binary.  
+
+Convert (24)₁₀ to octal.  
+
+Convert (64)₁₀ to octal.  
+
+Convert (C)₁₆ to decimal.  
+
+Convert (E)₁₆ to decimal.  
+ 
+Convert (111)₂ to decimal.  
+
+Convert (110)₂ to decimal.  
+
+Convert (B)₁₆ to decimal.  
+
+Convert (1A)₁₆ to decimal.  
+
+Convert (FF)₁₆ to decimal.  
+
+Convert (37)₈ to decimal.  
+
+Convert (10)₁₆ to decimal.  
+
+Convert (100)₂ to decimal.  
+
+Convert (101)₂ to decimal.    
+
+Convert (1110)₂ to decimal.  
+
+Convert (1F)₁₆ to decimal.    
+
+Convert (77)₈ to decimal.  
+
+Convert (20)₁₆ to decimal.  
+
+Convert (100)₁₆ to decimal.  
+
+Convert (2A)₁₆ to decimal.  
+
+Convert (1C)₁₆ to decimal.  
+
+Convert (7F)₁₆ to decimal.  
+
+Convert (80)₁₆ to decimal.  
+
+Convert (1011)₂ to decimal.  
+
+Convert (11101)₂ to decimal.  
+
+Convert (10101)₂ to decimal.  
+
+Convert (10)₂ to decimal.  
+
+Convert (10000)₂ to decimal.  
+
+Convert (11010)₂ to decimal.  
+
+Convert (11100)₂ to decimal.  
+
+Convert (11110)₂ to decimal.  
+
+Convert (100000)₂ to decimal.  
+
+Convert (101100)₂ to decimal.  
+
+Convert (101110)₂ to decimal.  
+
+Convert (110000)₂ to decimal.  
+
+Convert (110010)₂ to decimal.  
+
+Convert (110100)₂ to decimal.  
+
+Convert (110110)₂ to decimal.  
+{  
+=54  
+~53  
+~55  
+~56  
+}
+
+Convert (111000)₂ to decimal.  
+{  
+=56  
+~55  
+~57  
+~58  
+}
+
+Convert (111010)₂ to decimal.  
+{  
+=58  
+~57  
+~59  
+~60  
+}
+
+Convert (111100)₂ to decimal.  
+{  
+=60  
+~61  
+~59  
+~62  
+}
+
+Convert (111110)₂ to decimal.  
+{  
+=62  
+~63  
+~61  
+~60  
+}
+
+Convert (111111)₂ to decimal.  
+{  
+=63  
+~64  
+~62  
+~65  
+}
+

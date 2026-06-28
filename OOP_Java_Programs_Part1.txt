@@ -1,0 +1,227 @@
+// 1. Simple Inheritance Example
+class Person {
+    String name;
+    int age;
+
+    void display() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+    }
+}
+
+class Student extends Person {
+    int marks;
+
+    void displayStudent() {
+        display();
+        System.out.println("Marks: " + marks);
+    }
+}
+
+public class Main1 {
+    public static void main(String[] args) {
+        Student s = new Student();
+        s.name = "Alice";
+        s.age = 20;
+        s.marks = 85;
+        s.displayStudent();
+    }
+}
+
+
+================================================================================
+
+// 2. Single Inheritance with Method Overriding
+class Animal {
+    void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+class Dog extends Animal {
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+public class Main2 {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.sound();
+    }
+}
+
+
+================================================================================
+
+// 3. Multilevel Inheritance
+class Vehicle {
+    void type() {
+        System.out.println("This is a vehicle");
+    }
+}
+
+class Car extends Vehicle {
+    void brand() {
+        System.out.println("Brand: Generic Car");
+    }
+}
+
+class ElectricCar extends Car {
+    void battery() {
+        System.out.println("Battery: 75 kWh");
+    }
+}
+
+public class Main3 {
+    public static void main(String[] args) {
+        ElectricCar ec = new ElectricCar();
+        ec.type();
+        ec.brand();
+        ec.battery();
+    }
+}
+
+
+================================================================================
+
+// 4. Hierarchical Inheritance
+class Shape {
+    void area() {
+        System.out.println("Calculating area...");
+    }
+}
+
+class Circle extends Shape {
+    void area() {
+        System.out.println("Area of Circle = πr²");
+    }
+}
+
+class Rectangle extends Shape {
+    void area() {
+        System.out.println("Area of Rectangle = l × b");
+    }
+}
+
+public class Main4 {
+    public static void main(String[] args) {
+        Circle c = new Circle();
+        Rectangle r = new Rectangle();
+        c.area();
+        r.area();
+    }
+}
+
+
+================================================================================
+
+// 5. Is-A Relationship Validation
+class Person {
+    String name = "John";
+}
+
+class Employee extends Person {
+    int salary = 50000;
+}
+
+class Manager extends Employee {
+    String department = "Sales";
+}
+
+public class Main5 {
+    public static void main(String[] args) {
+        Manager m = new Manager();
+        System.out.println("Name: " + m.name);
+        System.out.println("Salary: " + m.salary);
+        System.out.println("Department: " + m.department);
+    }
+}
+
+
+================================================================================
+
+// 6. Encapsulation Using Private Fields
+class BankAccount {
+    private double balance = 0;
+
+    public void deposit(double amount) {
+        if (amount > 0) {
+            balance += amount;
+        }
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+}
+
+public class Main6 {
+    public static void main(String[] args) {
+        BankAccount acc = new BankAccount();
+        acc.deposit(1000);
+        System.out.println("Balance: " + acc.getBalance());
+    }
+}
+
+
+================================================================================
+
+// 7. Encapsulation with Validation
+class Student {
+    private int marks;
+
+    public void setMarks(int marks) {
+        if (marks >= 0 && marks <= 100) {
+            this.marks = marks;
+        } else {
+            System.out.println("Invalid marks!");
+        }
+    }
+
+    public int getMarks() {
+        return marks;
+    }
+}
+
+public class Main7 {
+    public static void main(String[] args) {
+        Student s = new Student();
+        s.setMarks(90);
+        System.out.println("Marks: " + s.getMarks());
+    }
+}
+
+
+================================================================================
+
+// 8. Encapsulation with Constructor
+class User {
+    private String name;
+    private int age;
+
+    public User(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+}
+
+public class Main8 {
+    public static void main(String[] args) {
+        User u = new User("Bob", 30);
+        System.out.println("Name: " + u.getName());
+        System.out.println("Age: " + u.getAge());
+    }
+}
+
+
+================================================================================
+

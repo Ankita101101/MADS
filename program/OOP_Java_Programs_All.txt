@@ -1,0 +1,428 @@
+// 1. Simple Inheritance Example
+class Person {
+    String name;
+    int age;
+
+    void display() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+    }
+}
+
+class Student extends Person {
+    int marks;
+
+    void displayStudent() {
+        display();
+        System.out.println("Marks: " + marks);
+    }
+}
+
+public class Main1 {
+    public static void main(String[] args) {
+        Student s = new Student();
+        s.name = "Alice";
+        s.age = 20;
+        s.marks = 85;
+        s.displayStudent();
+    }
+}
+
+
+================================================================================
+
+// 2. Single Inheritance with Method Overriding
+class Animal {
+    void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+class Dog extends Animal {
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+public class Main2 {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.sound();
+    }
+}
+
+
+================================================================================
+
+// 3. Multilevel Inheritance
+class Vehicle {
+    void type() {
+        System.out.println("This is a vehicle");
+    }
+}
+
+class Car extends Vehicle {
+    void brand() {
+        System.out.println("Brand: Generic Car");
+    }
+}
+
+class ElectricCar extends Car {
+    void battery() {
+        System.out.println("Battery: 75 kWh");
+    }
+}
+
+public class Main3 {
+    public static void main(String[] args) {
+        ElectricCar ec = new ElectricCar();
+        ec.type();
+        ec.brand();
+        ec.battery();
+    }
+}
+
+
+================================================================================
+
+// 4. Hierarchical Inheritance
+class Shape {
+    void area() {
+        System.out.println("Calculating area...");
+    }
+}
+
+class Circle extends Shape {
+    void area() {
+        System.out.println("Area of Circle = πr²");
+    }
+}
+
+class Rectangle extends Shape {
+    void area() {
+        System.out.println("Area of Rectangle = l × b");
+    }
+}
+
+public class Main4 {
+    public static void main(String[] args) {
+        Circle c = new Circle();
+        Rectangle r = new Rectangle();
+        c.area();
+        r.area();
+    }
+}
+
+
+================================================================================
+
+// 5. Is-A Relationship Validation
+class Person {
+    String name = "John";
+}
+
+class Employee extends Person {
+    int salary = 50000;
+}
+
+class Manager extends Employee {
+    String department = "Sales";
+}
+
+public class Main5 {
+    public static void main(String[] args) {
+        Manager m = new Manager();
+        System.out.println("Name: " + m.name);
+        System.out.println("Salary: " + m.salary);
+        System.out.println("Department: " + m.department);
+    }
+}
+
+
+================================================================================
+
+// 6. Encapsulation Using Private Fields
+class BankAccount {
+    private double balance = 0;
+
+    public void deposit(double amount) {
+        if (amount > 0) {
+            balance += amount;
+        }
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+}
+
+public class Main6 {
+    public static void main(String[] args) {
+        BankAccount acc = new BankAccount();
+        acc.deposit(1000);
+        System.out.println("Balance: " + acc.getBalance());
+    }
+}
+
+
+================================================================================
+
+// 7. Encapsulation with Validation
+class Student {
+    private int marks;
+
+    public void setMarks(int marks) {
+        if (marks >= 0 && marks <= 100) {
+            this.marks = marks;
+        } else {
+            System.out.println("Invalid marks!");
+        }
+    }
+
+    public int getMarks() {
+        return marks;
+    }
+}
+
+public class Main7 {
+    public static void main(String[] args) {
+        Student s = new Student();
+        s.setMarks(90);
+        System.out.println("Marks: " + s.getMarks());
+    }
+}
+
+
+================================================================================
+
+// 8. Encapsulation with Constructor
+class User {
+    private String name;
+    private int age;
+
+    public User(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+}
+
+public class Main8 {
+    public static void main(String[] args) {
+        User u = new User("Bob", 30);
+        System.out.println("Name: " + u.getName());
+        System.out.println("Age: " + u.getAge());
+    }
+}
+
+
+================================================================================
+
+// 9. Abstract Class with One Abstract Method
+abstract class Employee {
+    abstract void calculateSalary();
+}
+
+class PartTimeEmployee extends Employee {
+    void calculateSalary() {
+        System.out.println("Part-time salary calculated.");
+    }
+}
+
+class FullTimeEmployee extends Employee {
+    void calculateSalary() {
+        System.out.println("Full-time salary calculated.");
+    }
+}
+
+public class Main9 {
+    public static void main(String[] args) {
+        Employee e1 = new PartTimeEmployee();
+        Employee e2 = new FullTimeEmployee();
+        e1.calculateSalary();
+        e2.calculateSalary();
+    }
+}
+
+
+================================================================================
+
+// 10. Abstract Class with Constructor
+abstract class Device {
+    String brand;
+
+    public Device(String brand) {
+        this.brand = brand;
+    }
+
+    abstract void displayInfo();
+}
+
+class Mobile extends Device {
+    public Mobile(String brand) {
+        super(brand);
+    }
+
+    void displayInfo() {
+        System.out.println("Mobile brand: " + brand);
+    }
+}
+
+public class Main10 {
+    public static void main(String[] args) {
+        Mobile m = new Mobile("Samsung");
+        m.displayInfo();
+    }
+}
+
+
+================================================================================
+
+// 11. Interface Implementation
+interface Vehicle {
+    void start();
+}
+
+class Bike implements Vehicle {
+    public void start() {
+        System.out.println("Bike started with a kick.");
+    }
+}
+
+class Car implements Vehicle {
+    public void start() {
+        System.out.println("Car started with a key.");
+    }
+}
+
+public class Main11 {
+    public static void main(String[] args) {
+        Vehicle v1 = new Bike();
+        Vehicle v2 = new Car();
+        v1.start();
+        v2.start();
+    }
+}
+
+
+================================================================================
+
+// 12. Method Overloading (Compile-Time Polymorphism)
+class Calculator {
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    double add(double a, double b) {
+        return a + b;
+    }
+
+    String add(String a, String b) {
+        return a + b;
+    }
+}
+
+public class Main12 {
+    public static void main(String[] args) {
+        Calculator calc = new Calculator();
+        System.out.println("Int sum: " + calc.add(2, 3));
+        System.out.println("Double sum: " + calc.add(2.5, 3.5));
+        System.out.println("String concat: " + calc.add("Hello ", "World"));
+    }
+}
+
+
+================================================================================
+
+// 13. Method Overriding (Run-Time Polymorphism)
+class Bird {
+    void fly() {
+        System.out.println("Bird is flying");
+    }
+}
+
+class Eagle extends Bird {
+    void fly() {
+        System.out.println("Eagle flies high");
+    }
+}
+
+public class Main13 {
+    public static void main(String[] args) {
+        Bird b = new Eagle();
+        b.fly();
+    }
+}
+
+
+================================================================================
+
+// 14. Polymorphism Using Superclass Reference
+class Shape {
+    void draw() {
+        System.out.println("Drawing a shape");
+    }
+}
+
+class Circle extends Shape {
+    void draw() {
+        System.out.println("Drawing a circle");
+    }
+}
+
+class Square extends Shape {
+    void draw() {
+        System.out.println("Drawing a square");
+    }
+}
+
+public class Main14 {
+    public static void main(String[] args) {
+        Shape s1 = new Circle();
+        Shape s2 = new Square();
+        s1.draw();
+        s2.draw();
+    }
+}
+
+
+================================================================================
+
+// 15. Overloading vs Overriding in One Program
+class Printer {
+    void print() {
+        System.out.println("Printing...");
+    }
+
+    void print(String text) {
+        System.out.println("Printing: " + text);
+    }
+}
+
+class ColorPrinter extends Printer {
+    void print() {
+        System.out.println("Printing in color...");
+    }
+}
+
+public class Main15 {
+    public static void main(String[] args) {
+        Printer p = new Printer();
+        p.print();
+        p.print("Document");
+
+        Printer cp = new ColorPrinter();
+        cp.print(); // Runtime polymorphism
+    }
+}
+
+
+================================================================================
+

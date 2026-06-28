@@ -220,7 +220,7 @@ Feature Phones (1990s–Early 2000s)
 Examples: Nokia 3310 | Motorola RAZR
 
 Early Smartphones (Mid-2000s)
-• Combined phone and PDA functionality
+• Combined phone and PDA (personal digital assistant) functionality
 • Supported email and limited applications
 • Used physical keyboards or stylus input
 Examples: BlackBerry Devices | Palm Treo
@@ -229,25 +229,20 @@ Modern Smartphones (2007 Onwards)
 • Full touchscreen interfaces
 • Application ecosystem through app stores
 • High-speed internet connectivity
-
 Examples: Apple iPhone (2007) | HTC Dream (2008)
 
 Advanced Smartphones (2010s)
-
 • HD displays
 • Multi-core processors
 • Multiple cameras
 • 4G LTE support
-
 Examples: iPhone 6 | Samsung Galaxy S Series
 
 Current Generation Smartphones (2020s)
-
 • 5G connectivity
 • Foldable displays
 • AI-powered features
 • Wearable integration
-
 Examples: Samsung Galaxy Fold | Huawei Mate X
 `,
 },
@@ -294,13 +289,11 @@ Several devices played an important role in shaping modern mobile technology.
 As mobile hardware evolved, operating systems also became more powerful and user-friendly.
 
 Mobile operating systems provide:
-
 • User Interface
 • Application Support
 • Hardware Management
 • Security Services
 • Network Connectivity
-
 The development of mobile operating systems transformed mobile devices into fully functional computing platforms.
 `,
 },
@@ -310,24 +303,20 @@ The development of mobile operating systems transformed mobile devices into full
 
   notes: `
 
-Palm OS (1996)
-
+Palm OS (1996)-
 • Designed for Personal Digital Assistants (PDAs)
 • Touch and stylus-based interface
 • Lightweight operating system
 
-Symbian OS (1997)
-
+Symbian OS (1997)-
 • Widely adopted by Nokia devices
 • Dominated the smartphone market before Android and iOS
 
-BlackBerry OS (1999)
-
+BlackBerry OS (1999)-
 • Focused on enterprise communication
 • Secure email and messaging services
 
-Windows Mobile / Windows Phone
-
+Windows Mobile / Windows Phone-
 • Developed by Microsoft
 • Supported productivity applications
 • Later redesigned with a tile-based user interface
@@ -341,14 +330,12 @@ Windows Mobile / Windows Phone
   notes: `
 
 iOS (2007)
-
 • Developed by Apple Inc.
 • Used exclusively in iPhone and iPad devices
 • Closed-source operating system
 • Known for security, performance, and hardware integration
 
 Android (2008)
-
 • Developed by Google
 • Based on the Linux Kernel
 • Open-source platform
@@ -370,13 +357,11 @@ Android currently holds the largest share of the global smartphone market.
   notes: `
 
 HarmonyOS
-
 • Developed by Huawei
 • Introduced in 2019
 • Designed for smartphones and IoT devices
 
 KaiOS
-
 • Lightweight operating system
 • Designed for feature phones
 • Supports essential smart features
@@ -425,22 +410,18 @@ Hardware Layer
   notes: `
 
 Kernel
-
 • Controls hardware resources
 • Manages memory and processes
 
 Libraries and Runtime
-
 • Provide reusable software functions
 • Support graphics, databases, and multimedia
 
 Application Framework
-
 • Offers APIs for developers
 • Simplifies application development
 
 Applications
-
 • End-user programs installed on the device
 `,
 },
@@ -451,60 +432,32 @@ Applications
   notes: `
 
 Developer
-
-Android:
-Google
-
-iOS:
-Apple
+Android:- Google
+iOS:- Apple
 
 Source Model
-
-Android:
-Open Source (AOSP)
-
-iOS:
-Closed Source
+Android:- Open Source (AOSP)
+iOS:- Closed Source
 
 Hardware Support
-
-Android:
-Multiple Manufacturers
-
-iOS:
-Apple Devices Only
+Android:- Multiple Manufacturers
+iOS:- Apple Devices Only
 
 Customization
-
-Android:
-High
-
-iOS:
-Limited
+Android:- High
+iOS:- Limited
 
 Application Store
-
-Android:
-Google Play Store
-
-iOS:
-Apple App Store
+Android:- Google Play Store
+iOS:- Apple App Store
 
 Programming Languages
-
-Android:
-Kotlin, Java
-
-iOS:
-Swift, Objective-C
+Android:- Kotlin, Java
+iOS:- Swift, Objective-C
 
 Market Reach
-
-Android:
-Larger Global Market Share
-
-iOS:
-Strong Premium Segment Presence
+Android:- Larger Global Market Share
+iOS:- Strong Premium Segment Presence
 `,
 },
 
@@ -516,7 +469,6 @@ Strong Premium Segment Presence
 The future of mobile computing is driven by emerging technologies and user demands.
 
 Major trends include:
-
 • Foldable and rollable displays
 • 5G and future 6G connectivity
 • Artificial Intelligence integration
@@ -525,7 +477,6 @@ Major trends include:
 • Integration with wearable devices
 • Internet of Things (IoT) connectivity
 • Cloud-based mobile services
-
 These technologies will continue to shape the next generation of mobile devices and operating systems.
 `,
 },
@@ -536,17 +487,12 @@ These technologies will continue to shape the next generation of mobile devices 
   notes: `
 
 • Mobile devices evolved from analog phones to AI-powered smartphones.
-
 • Feature phones introduced SMS and basic applications.
-
 • The iPhone (2007) and Android (2008) initiated the modern smartphone era.
-
 • Early operating systems included Palm OS, Symbian OS, BlackBerry OS, and Windows Mobile.
-
 • Modern operating systems are Android and iOS.
 
 • Mobile OS architecture consists of:
-
 Hardware
 Kernel
 Libraries and Runtime
@@ -570,202 +516,57 @@ Applications
   subtopics: [
 
     {
-      heading: "What is Digital Evidence in Drone Forensics?",
+      heading: "01 — Native Applications",
 
       notes: `
-In drone forensics, digital evidence is the true “digital treasure” hidden within unmanned aerial vehicles (UAVs) and their associated systems.
+A Native App is built specifically for one mobile OS (Operating System) — the base software that manages a device's hardware. Examples of an OS: Android (by Google) and iOS — iPhone Operating System (by Apple).
+How they're built:
 
-Unlike physical components, digital artifacts reveal:
-• who operated the drone
-• where it flew
-• when it was active
-• why it was used
+Android apps → written in Java or Kotlin, developed using Android Studio (an IDE — Integrated Development Environment, i.e. the software tool where programmers write and test code)
+iOS apps → written in Swift or Objective-C, developed using Xcode (Apple's IDE)
+Distributed through the Google Play Store (Android) or Apple App Store (iOS)
 
-Unveiling this evidence is central to reconstructing drone-related incidents and proving intent in legal investigations.
-
-Digital evidence refers to any data generated, stored, transmitted, or processed by a drone and its ecosystem, including:
-
-• Onboard memory
-• Flight controllers
-• Mobile devices
-• Cloud platforms
-• Ground control systems
-
-This evidence is often:
-• time-stamped
-• location-aware
-• user-linked
-
-making it highly valuable and legally significant.
+Key concept — SDK: Developers use an SDK (Software Development Kit) — a package of tools and pre-written code provided by the platform (Android/Apple) to help build apps for it.
+Key concept — API: Native apps communicate with device hardware (camera, GPS — Global Positioning System, microphone, contacts) through APIs (Application Programming Interfaces) — sets of rules that allow one software to talk to another.
+Advantages: Fastest performance, best UI (User Interface) feel, full hardware access, works offline.
+Disadvantages: Requires two separate codebases (one for Android, one for iOS), higher development cost and time.
+Real examples: WhatsApp, Google Maps, Instagram — all have separate native builds for each platform.
 `,
     },
 
     {
-      heading: "Flight Logs and Telemetry Data",
+      heading: "02 — Hybrid Applications",
 
       notes: `
-Flight logs and telemetry data include:
+A Hybrid App is a combination of a native app and a web app. The core is built with web technologies — HTML (HyperText Markup Language), CSS (Cascading Style Sheets), and JS (JavaScript) — but it is wrapped inside a native shell, allowing it to be installed like a native app.
+The WebView concept: At the heart of a hybrid app is a WebView — an embedded mini-browser inside the native shell. Think of it as a picture frame (native shell) holding a web page (picture) inside it. The web code runs inside this WebView, while the shell gives access to device hardware.
+Popular Frameworks (pre-built tools that make development faster):
 
-• GPS coordinates
-• altitude
-• speed
-• direction
-• takeoff locations
-• landing locations
-• battery status
-• flight duration
+Apache Cordova, Ionic, React Native, Flutter, Xamarin
 
-Forensic Value:
-Used to reconstruct the complete flight path and prove airspace violations or border intrusions.
-
-Real-World Example:
-In restricted airspace violations near airports, flight logs have been used to prove intentional drone penetration, leading to criminal prosecution.
+Cross-Platform: One codebase works on both Android and iOS — this is called being cross-platform.
+Advantages: Single codebase saves cost, partial device hardware access via APIs, faster time to market.
+Disadvantages: Slightly slower than native, the UX (User Experience) may not feel as smooth as a pure native app.
+Real examples: Early Uber, Microsoft Teams, some features of Instagram (React Native).
 `,
     },
 
     {
-      heading: "Images and Video Files",
+      heading: "03 — Web Applications (PWA)",
 
       notes: `
-Digital media evidence includes:
+A Web App is essentially a website designed to look and behave like a mobile app. It runs inside a web browser (Chrome, Safari, Firefox) and requires no installation.
+PWA — Progressive Web App: The modern evolution of web apps. A PWA uses advanced browser features — including a Service Worker (a background JavaScript script) — to:
 
-• photos captured during flight
-• video recordings
-• embedded EXIF metadata
-• raw surveillance footage
+Cache data locally so parts work offline
+Send push notifications
+Be "installed" (pinned to the home screen) without going through an app store
 
-Forensic Value:
-Provides visual proof of surveillance, reconnaissance, payload delivery, or illegal monitoring operations.
-
-Real-World Example:
-Recovered drone footage in smuggling cases revealed drop zones, helping authorities identify and arrest accomplices.
-`,
-    },
-
-    {
-      heading: "Onboard Storage and Memory",
-
-      notes: `
-Drone storage systems include:
-
-• internal flash memory
-• SD cards
-• removable storage systems
-
-Forensic Value:
-Storage devices may contain:
-• deleted files
-• cached telemetry logs
-• historical mission data
-• temporary forensic artifacts
-
-Advanced forensic recovery tools can recover deleted or partially corrupted evidence.
-`,
-    },
-
-    {
-      heading: "Mobile Applications",
-
-      notes: `
-Drone operators commonly use smartphone or tablet applications to control UAV systems.
-
-These applications may contain:
-
-• user login credentials
-• flight history
-• cached telemetry data
-• synchronized cloud records
-• mission configurations
-
-Forensic Value:
-Mobile applications can directly link a UAV to a specific operator or account owner.
-`,
-    },
-
-    {
-      heading: "Remote Controller and Ground Control Software",
-
-      notes: `
-Ground Control Systems (GCS) and remote controllers contain operational evidence including:
-
-• pairing information
-• command history
-• mission planning data
-• operational configurations
-
-Forensic Value:
-Investigators can correlate operator commands with drone behavior, strengthening attribution and intent analysis.
-`,
-    },
-
-    {
-      heading: "Cloud and Network Data",
-
-      notes: `
-Modern drones frequently synchronize with cloud platforms.
-
-Cloud evidence may include:
-
-• cloud backups of flight logs
-• account activity history
-• synchronized telemetry data
-• network communication metadata
-
-Forensic Value:
-Even when local evidence is deleted, cloud records may preserve historical evidence and operational timelines.
-`,
-    },
-
-    {
-      heading: "Forensic Analysis of Digital Evidence",
-
-      notes: `
-Digital evidence analysis involves:
-
-• secure forensic acquisition
-• hash verification
-• evidence integrity validation
-• timeline creation
-• telemetry reconstruction
-• cloud correlation
-• mobile log analysis
-
-Cross-validation between physical and digital evidence creates a scientifically reliable reconstruction of events.
-`,
-    },
-
-    {
-      heading: "Challenges in Unveiling Digital Evidence",
-
-      notes: `
-Drone forensic investigators may face several technical challenges:
-
-• encrypted firmware
-• encrypted storage
-• proprietary file formats
-• cloud jurisdiction limitations
-• deleted or overwritten logs
-• damaged onboard memory
-
-Improper handling of powered-on drones may overwrite volatile evidence permanently.
-`,
-    },
-
-    {
-      heading: "Legal Importance of Digital Evidence",
-
-      notes: `
-Digital evidence plays a critical role in legal drone investigations.
-
-It helps:
-
-• establish criminal intent (mens rea)
-• identify specific operators
-• reconstruct operational timelines
-• prove surveillance activity
-• validate illegal airspace penetration
-
-Digital forensic artifacts provide court-admissible scientific evidence during prosecution and investigation proceedings.
+Users access web apps through a URL (Uniform Resource Locator) — the full web address, like https://www.example.com.
+APK: Worth noting here — native Android apps are distributed as an APK (Android Package Kit) file, the Android equivalent of a Windows .exe installer. Web apps require no APK at all.
+Advantages: No app store approval needed, works on any device with a browser, instant updates (just update the server).
+Disadvantages: Limited hardware access, generally slower performance, mostly needs internet.
+Real examples: Twitter Lite (PWA), Starbucks PWA, Flipkart Lite.
 `,
     },
 
@@ -782,435 +583,68 @@ Digital forensic artifacts provide court-admissible scientific evidence during p
   subtopics: [
 
     {
-      heading: "Overview of Drone Storage Systems",
+      heading: "1. Why Do We Need OOP?",
 
       notes: `
-A drone (UAS) is not a single storage device — it is a distributed system of multiple data stores, each holding different types of evidence.
+Imagine you're writing a program to manage a school. You need to keep track of students, teachers, and classrooms — their names, ages, grades, subjects, etc. — and also perform actions like "enroll student," "assign grade," "calculate average marks."
 
-Forensic investigators must identify, preserve, and extract data from every layer including:
-• removable media
-• onboard flash memory
-• cloud servers
-• ground control systems
+The old way (Procedural Programming):
+You'd write a bunch of separate variables and functions:
 
-Missing even one evidence layer may result in critical evidence loss.
+student1_name = "Riya"
+student1_age = 16
+student1_marks = [85, 90, 78]
+
+def calculate_average(marks):
+    return sum(marks) / len(marks)
+
+This works fine for one student. But what about 500 students? You'd end up with messy, repeated code, and no clean way to bundle a student's data (name, age, marks) with their behavior (calculate average) together.
+
+The OOP way:
+We bundle data + behavior into a single unit called an Object, modeled on a blueprint called a Class.
+
+class Student:
+    def __init__(self, name, age, marks):
+        self.name = name
+        self.age = age
+        self.marks = marks
+
+    def calculate_average(self):
+        return sum(self.marks) / len(self.marks)
+
+riya = Student("Riya", 16, [85, 90, 78])
+print(riya.calculate_average())
+
+Now every student is a self-contained, reusable "thing." That's the heart of OOP — modeling real-world entities as objects.
 `,
     },
 
     {
-      heading: "SD Card Extraction",
+      heading: "2. The Two Foundational Words: Class & Object",
 
       notes: `
-The SD card is usually the primary and most accessible storage medium in a drone.
-
-Commonly stored data includes:
-• MP4 and MOV video files
-• JPEG and RAW photographs
-• waypoint mission files
-• mapping data
-• DJI DAT logs
-
-Extraction Procedure:
-
-Step 1 — Document the SD card position and write-protect status.
-
-Step 2 — Insert into a hardware write-blocker before forensic examination.
-
-Step 3 — Create a bit-for-bit forensic image using:
-• FTK Imager
-• dd
-• dcfldd
-
-Step 4 — Verify image integrity using:
-• MD5 hashes
-• SHA-256 hashes
-
-Step 5 — Perform forensic analysis and deleted file carving.
-
-Deleted file recovery is possible because FAT32 and exFAT often mark entries as deleted without immediately overwriting the data clusters.
-`,
-    },
-
-    {
-      heading: "Anti-Forensic Challenges in SD Card Recovery",
-
-      notes: `
-Common anti-forensic obstacles include:
-
-• formatted SD cards
-• encrypted storage
-• physically damaged media
-• overwritten sectors
-
-Quick formatting often removes only file allocation structures while leaving recoverable data intact.
-
-Modern DJI drones may use encrypted SD card systems requiring device-linked encryption keys.
-
-Severely damaged cards may require:
-• clean-room recovery
-• chip-level extraction
-• NAND analysis
-`,
-    },
-
-    {
-      heading: "Onboard Memory Acquisition",
-
-      notes: `
-Beyond removable SD cards, drones contain fixed internal flash memory storing valuable evidence independently.
-
-These systems may preserve evidence even if the SD card is removed or wiped.
-
-Onboard memory may contain:
-• blackbox logs
-• GPS records
-• flight telemetry
-• failsafe events
-• motor RPM data
-• battery records
-• PID tuning configurations
-• home point coordinates
-`,
-    },
-
-    {
-      heading: "Flight Controller Internal Flash",
-
-      notes: `
-The flight controller acts as the drone's operational brain.
-
-It stores:
-• timestamped flight logs
-• altitude records
-• RC input data
-• signal loss events
-• geofence violations
-• battery voltage
-• motor RPM
-
-DJI drones often store encrypted DAT blackbox files within internal flash memory.
-
-These files may require:
-• DatCon
-• TXTlogToKmlMSExcel
-• proprietary DJI decoding tools
-`,
-    },
-
-    {
-      heading: "Onboard Flash Acquisition Methods",
-
-      notes: `
-Multiple forensic acquisition methods are used depending on device condition.
-
-Logical Acquisition:
-Non-destructive extraction through USB or official software interfaces.
-
-UART / Serial Acquisition:
-Uses PCB debug pads and USB-to-UART adapters for bootloader access.
-
-JTAG Acquisition:
-Uses JTAG probes for direct memory dumps and firmware extraction.
-
-ISP (In-System Programming):
-Direct flash access while chips remain soldered.
-
-Chip-Off Acquisition:
-Physical removal of NAND/NOR flash chips for direct memory reading.
-Used as a last resort in advanced forensic investigations.
-`,
-    },
-
-    {
-      heading: "Camera Module Internal Storage",
-
-      notes: `
-Drone camera and gimbal systems may contain:
-
-• thumbnail cache
-• EXIF metadata
-• firmware logs
-• encrypted local storage
-• media-linked operational records
-
-Evidence may persist even after SD card deletion.
-
-Extraction may require:
-• USB acquisition
-• chip-off recovery
-• gimbal interface analysis
-`,
-    },
-
-    {
-      heading: "Battery BMS Forensics",
-
-      notes: `
-The Battery Management System (BMS) stores operational and forensic data including:
-
-• charge cycle count
-• voltage history
-• overcurrent events
-• pairing information
-• manufacturing details
-
-DJI smart batteries often store aircraft pairing history.
-
-A mismatched battery may indicate:
-• hardware modification
-• battery swapping
-• unauthorized drone alteration
-`,
-    },
-
-    {
-      heading: "Cloud Synchronisation",
-
-      notes: `
-Modern drones frequently synchronize operational data with manufacturer cloud servers.
-
-Cloud evidence may include:
-• flight records
-• GPS history
-• account activity
-• pilot identity
-• device registration
-• Remote ID broadcasts
-
-Platforms include:
-• DJI FlightHub
-• Skydio Fleet
-• Autel cloud services
-
-Cloud artifacts may preserve evidence even when local logs are deleted.
-`,
-    },
-
-    {
-      heading: "Legal Access to Cloud Data",
-
-      notes: `
-Cloud evidence may require legal authorization including:
-
-• subpoenas
-• preservation requests
-• MLAT procedures
-• user consent
-
-Investigators may encounter:
-• international jurisdiction problems
-• limited retention periods
-• encryption barriers
-• disabled synchronization settings
-`,
-    },
-
-    {
-      heading: "Forensic Recovery Methods",
-
-      notes: `
-Advanced forensic recovery techniques include:
-
-• file carving
-• NAND reconstruction
-• metadata extraction
-• filesystem timeline analysis
-• log decoding
-
-Recovery techniques help reconstruct:
-• deleted evidence
-• damaged files
-• fragmented telemetry
-• partially overwritten data
-`,
-    },
-
-    {
-      heading: "File Carving",
-
-      notes: `
-File carving reconstructs files using known signatures instead of filesystem structures.
-
-Examples include:
-
-JPEG:
-FF D8 FF
-
-MP4:
-66 74 79 70
-
-GPX/KML:
-XML signatures
-
-Popular carving tools:
-• PhotoRec
-• Autopsy
-• Magnet AXIOM
-• X-Ways Forensics
-
-Carving is useful for:
-• formatted storage
-• corrupted filesystems
-• deleted evidence recovery
-`,
-    },
-
-    {
-      heading: "Log File Decoding",
-
-      notes: `
-Drone flight logs are often stored in proprietary binary formats.
-
-Common log systems include:
-
-• DJI DAT logs
-• ArduPilot BIN logs
-• PX4 logs
-• Betaflight Blackbox files
-
-Analysis tools include:
-• DatCon
-• MAVExplorer
-• Mission Planner
-• Blackbox Explorer
-
-Decoded logs may reveal:
-• GPS paths
-• pilot actions
-• IMU data
-• system errors
-• battery conditions
-`,
-    },
-
-    {
-      heading: "Metadata Extraction",
-
-      notes: `
-Drone media files often contain embedded forensic metadata.
-
-EXIF and XMP metadata may reveal:
-• GPS coordinates
-• timestamps
-• altitude
-• camera settings
-• firmware versions
-• drone serial numbers
-• gimbal orientation
-
-Popular extraction tools:
-• ExifTool
-• Magnet AXIOM
-• Autopsy
-`,
-    },
-
-    {
-      heading: "Filesystem Timeline Analysis",
-
-      notes: `
-Timeline analysis reconstructs operational chronology using:
-
-• creation timestamps
-• modification timestamps
-• access timestamps
-• metadata changes
-
-This helps correlate:
-• flight activity
-• cloud synchronization
-• GPS records
-• operator actions
-`,
-    },
-
-    {
-      heading: "Anti-Forensic Countermeasures",
-
-      notes: `
-Drone operators may attempt to hide evidence using:
-
-• encryption
-• firmware wiping
-• SD card destruction
-• spoofed GPS signals
-• Remote ID manipulation
-
-Investigators respond using:
-• chip-off recovery
-• RF triangulation
-• NAND analysis
-• cross-validation techniques
-`,
-    },
-
-    {
-      heading: "Ground Control Station (GCS) as Evidence",
-
-      notes: `
-Ground control systems and paired mobile devices contain valuable evidence.
-
-Evidence sources include:
-• DJI Fly databases
-• cached map tiles
-• mission planning files
-• Wi-Fi logs
-• account credentials
-• network records
-
-Enterprise systems may also contain:
-• mission recordings
-• command logs
-• operational video streams
-`,
-    },
-
-    {
-      heading: "Forensic Tools Used in Drone Storage Analysis",
-
-      notes: `
-Common forensic tools include:
-
-• FTK Imager
-• Autopsy
-• X-Ways Forensics
-• PhotoRec
-• ExifTool
-• DatCon
-• MAVExplorer
-• Cellebrite UFED
-• Magnet AXIOM
-• PC-3000 Flash
-• Wireshark
-
-These tools assist with:
-• imaging
-• carving
-• metadata extraction
-• mobile analysis
-• NAND reconstruction
-• telemetry decoding
-`,
-    },
-
-    {
-      heading: "Chain of Custody Considerations",
-
-      notes: `
-Important forensic handling procedures include:
-
-• never power on recovered drones
-• immediately isolate devices in Faraday bags
-• use write-blockers before imaging
-• hash all forensic images
-• document every examiner action
-
-Improper handling may overwrite:
-• telemetry logs
-• cloud sync data
-• volatile evidence
-
-Chain of custody documentation is critical for legal admissibility and expert testimony.
+Class-
+A Class is a blueprint, template, or prototype that defines the properties (data) and behaviors (functions) that 
+objects of that class will have.
+
+In simple words, a class is a design or plan from which objects are created.
+
+Key Points
+A class does not occupy memory until an object is created.
+It defines the structure and behavior of objects.
+It contains variables (attributes) and methods (functions).
+One class can create many objects.
+
+Object-
+An Object is a real-world instance of a class.
+
+It is created using the blueprint provided by the class and occupies memory.
+
+Key Points
+Objects are actual entities.
+Memory is allocated when an object is created.
+Each object has its own values.
+Multiple objects can be created from the same class.
 `,
     },
 
@@ -1227,431 +661,118 @@ Chain of custody documentation is critical for legal admissibility and expert te
   subtopics: [
 
     {
-      heading: "Overview of Evidence Preservation",
+      heading: "1 — Classes",
 
       notes: `
-Evidence preservation is the most critical phase of any forensic investigation.
+A **class** is a blueprint. It defines what an object will look like and what it will be able to do — but it is not the object itself. Think of a class the way you'd think of an architectural drawing for a house. The drawing describes the number of rooms, the layout, the dimensions — but the drawing is not a house. You can build a hundred houses from one drawing, and each house is its own independent structure.
 
-It occurs before analysis and determines whether forensic findings will be admissible in court.
+In code, a class defines:
 
-In drone forensics, preservation is especially challenging because drones are networked devices capable of:
-• cloud synchronisation
-• remote wiping
-• firmware updates
-• log overwriting
-• wireless communication
+- **Attributes** (also called fields or properties) — the data the object will hold, like name, age, or speed
+- **Methods** — the functions the object can perform, like drive(), stop(), or calculateSalary()
 
-The governing principle is the Locard Exchange Principle:
-“Every contact leaves a trace.”
-
-The forensic examiner must ensure that every interaction with the evidence is:
-• documented
-• controlled
-• scientifically explainable
+A class costs nothing by itself. It sits in memory as a definition. No data is stored in a class — data lives in the objects created from it.
 `,
     },
 
     {
-      heading: "First Responder Actions at the Scene",
+      heading: "2 — Objects",
 
       notes: `
-The first few minutes at the scene determine whether evidence survives.
+An **object** is a concrete instance of a class. When you take the class blueprint and actually create something from it in memory, that thing is an object. This process is called **instantiation**.
 
-Critical procedures include:
+If Car is a class, then myCar, yourCar, and taxiCar are three separate objects — each with their own color, speed, and fuel level. Changing myCar's speed does not affect yourCar's speed, even though both were created from the exact same class.
 
-• Never power on the drone
-• Photograph everything before touching
-• Record GPS coordinates
-• Document environmental conditions
-• Preserve component positions
-• Avoid unnecessary handling
+Every object has three fundamental characteristics:
 
-Powering on a drone may:
-• overwrite logs
-• trigger cloud synchronisation
-• activate return-to-home systems
-• update firmware automatically
-
-If the drone is already powered on:
-• document LED status
-• photograph displays
-• use proper shutdown procedures
+- **State** — the current values of its attributes (e.g., speed = 60, color = "red")
+- **Behavior** — what it can do via its methods (e.g., accelerate(), brake())
+- **Identity** — each object is a unique entity in memory, distinct from all others
 `,
     },
 
     {
-      heading: "RF Isolation and Faraday Protection",
+      heading: "3 — Encapsulation",
 
       notes: `
-Recovered drones must immediately be isolated from radio frequency communication.
+Encapsulation is the principle of **bundling data and the methods that operate on that data together inside a class, and hiding the internal details from the outside world.**
 
-Faraday isolation prevents:
-• Wi-Fi communication
-• Bluetooth pairing
-• GPS updates
-• cloud synchronisation
-• remote wipe attempts
-• OTA firmware updates
+The word "encapsulate" literally means to enclose in a capsule. That's exactly what you're doing — you wrap the data inside the object and control how the outside world can interact with it.
 
-Isolation tools include:
+Think about your smartphone. You press a button and the volume changes. You have no idea what happens electrically inside — and you don't need to. The internals are hidden. You're given a clean interface (the button) to interact with. That's encapsulation in everyday life.
 
-• Faraday bags
-• signal-blocking pouches
-• laboratory Faraday cages
+In code, encapsulation is enforced using **access modifiers**:
 
-Faraday effectiveness must always be tested before use.
+- private — only accessible within the same class. No one outside can touch it directly.
+- protected — accessible within the class and its subclasses.
+- public — accessible from anywhere.
+
+The standard pattern is to make attributes private and provide controlled access through getters and setters — methods that read or write the value with whatever validation you choose to apply.
+
+For example, a BankAccount class would keep balance private. You would never let external code set balance = -50000 directly. Instead, you'd provide a deposit(amount) method that validates the amount before adding it, and a withdraw(amount) method that checks sufficient funds first. The data is protected; the logic lives in one place.
+
+The two key benefits this gives you are **data integrity** (nobody can corrupt your object's state from outside) and **maintainability** (you can change the internal implementation without breaking any code that uses your class).
 `,
     },
 
     {
-      heading: "Faraday Isolation Principles",
+      heading: "4 — Inheritance",
 
       notes: `
-Faraday isolation works by enclosing the device within conductive shielding that blocks electromagnetic signals.
+Inheritance is the mechanism by which **one class can acquire the properties and methods of another class.** The class being inherited from is called the **parent class** (or superclass or base class). The class doing the inheriting is called the **child class** (or subclass or derived class).
 
-This is essential because modern drones may:
-• automatically sync logs
-• reconnect with paired devices
-• receive remote commands
-• erase evidence remotely
+The relationship is always an **"is-a" relationship**. A Dog is an Animal. A SavingsAccount is a BankAccount. A Car is a Vehicle. If you can say that sentence naturally, inheritance is probably the right tool.
 
-The drone should remain isolated throughout:
-• transport
-• laboratory storage
-• examination
-• evidence transfer
+Why does this matter? Without inheritance, if you had a Dog class and a Cat class, you'd write the eat(), sleep(), and breathe() methods twice — once in each class. That's code duplication. With inheritance, you write those methods once in an Animal class, and both Dog and Cat inherit them automatically.
+
+The child class gets everything from the parent, and then adds its own unique stuff on top:
+
+- Dog might add fetch() and bark()
+- Cat might add purr() and climbTree()
+
+The parent class's code is reused entirely — not copied, not pasted, but genuinely shared. This makes your codebase dramatically shorter, easier to fix, and easier to extend.
+
+There is also **multi-level inheritance**, where class C inherits from class B, which itself inherits from class A. The chain can go multiple levels deep. And in languages like Python and C++, there is **multiple inheritance** — a class inheriting from more than one parent — though Java restricts this to a single parent class (but allows multiple interfaces).
+
+A crucial rule: a child class can **override** a parent's method — meaning it can redefine what that method does. The parent's makeSound() might do nothing, but Dog's overridden makeSound() prints "Woof" and Cat's prints "Meow."
 `,
     },
 
     {
-      heading: "Preventing Physical Contamination",
+      heading: "5 — Polymorphism",
 
       notes: `
-Physical contamination can destroy:
-• fingerprints
-• DNA evidence
-• soil traces
-• chemical residue
-• biological evidence
+Polymorphism comes from Greek: *poly* (many) + *morphe* (forms). It means **one thing can take many forms.** In OOP, it means a single method name can behave differently depending on the object it is called on.
 
-Important precautions include:
+This is where OOP becomes truly powerful. Imagine you have an array of Animal objects — some are Dog, some are Cat, some are Bird. You loop through the array and call makeSound() on each one. The dog barks, the cat meows, the bird chirps. You called the same method name on every object, but each responded in its own way. That's polymorphism.
 
-• wearing nitrile gloves
-• avoiding contact with high-value surfaces
-• using anti-static packaging
-• packaging components individually
-• maintaining controlled temperature and humidity
+There are two types to understand clearly.
 
-Investigators must never clean the drone before evidence sampling.
-`,
-    },
+#### Compile-time Polymorphism — Method Overloading
 
-    {
-      heading: "Handling Propeller and Crash Evidence",
+This happens when a class has **multiple methods with the same name but different parameters.** The compiler decides at compile time which version to call, based on what arguments you pass.
 
-      notes: `
-Propeller blades and crash components may contain:
+For example, a Calculator class might have:
 
-• blood traces
-• paint transfer
-• feathers
-• impact residue
-• vegetation transfer
+- add(int a, int b) — adds two integers
+- add(double a, double b) — adds two decimals
+- add(int a, int b, int c) — adds three integers
 
-These materials may reveal:
-• collision dynamics
-• strike evidence
-• operational environment
-• victim interaction
+All three are named add. The compiler looks at what you pass in and routes to the right one. This is called **overloading**, and it is resolved statically — before the program even runs.
 
-Propellers should be:
-• handled carefully
-• packaged separately
-• protected against additional damage
-`,
-    },
+#### Runtime Polymorphism — Method Overriding
 
-    {
-      heading: "Chain of Custody",
+This is the more interesting and powerful type. It happens when a **child class provides its own implementation of a method that already exists in the parent class.** The decision of which version to run happens at runtime — while the program is executing.
 
-      notes: `
-The chain of custody is the documented record showing:
-• who handled evidence
-• when it was handled
-• why it was handled
-• what actions were performed
+The classic setup:
 
-Required documentation includes:
+- Animal has a method makeSound() that does nothing (or is declared abstract)
+- Dog overrides it to print "Woof"
+- Cat overrides it to print "Meow"
 
-• exhibit number
-• drone description
-• GPS recovery location
-• recovery time and date
-• examiner identity
-• packaging details
-• seal information
+Now you write code that holds an Animal reference but assigns a Dog object to it. When you call makeSound(), it calls the Dog's version — not the Animal's. The correct method is resolved at runtime based on the actual object type, not the reference type. This is called **dynamic dispatch**.
 
-A broken chain of custody may result in evidence being excluded from court.
-`,
-    },
-
-    {
-      heading: "Tamper-Evident Packaging and Transfers",
-
-      notes: `
-Drone evidence must be sealed using tamper-evident packaging.
-
-Each seal must:
-• contain signatures
-• include dates
-• show visible tampering if opened
-
-Every transfer between custodians must be documented through:
-• transfer receipts
-• evidence logs
-• digital case management systems
-
-This ensures continuous legal accountability.
-`,
-    },
-
-    {
-      heading: "Write Blocking",
-
-      notes: `
-Write blocking prevents operating systems from modifying evidence during acquisition.
-
-Without write blocking, systems may:
-• alter timestamps
-• create cache files
-• modify metadata
-• corrupt evidence integrity
-
-Hardware write blockers are preferred because they physically block write commands.
-
-Common devices include:
-• Tableau T8u
-• WiebeTech ComboDock
-• Tableau TK35u
-`,
-    },
-
-    {
-      heading: "Write Blocking for Drone Media",
-
-      notes: `
-Drone-specific storage media require special precautions.
-
-SD Cards:
-• activate physical write-protect tabs
-• use hardware write blockers before examination
-
-Internal Flash Memory:
-• logical acquisition requires software write protection
-• JTAG and chip-off are inherently read-only
-
-After imaging:
-• verify hashes again
-• confirm source media integrity
-`,
-    },
-
-    {
-      heading: "Forensic Imaging",
-
-      notes: `
-No forensic analysis is performed directly on original evidence.
-
-Instead, investigators create verified forensic images containing:
-• allocated data
-• deleted data
-• slack space
-• unallocated sectors
-
-Common image formats include:
-• DD / RAW
-• E01
-• AFF4
-
-Imaging tools include:
-• FTK Imager
-• dd
-• dcfldd
-• Guymager
-`,
-    },
-
-    {
-      heading: "Hash Verification",
-
-      notes: `
-Cryptographic hashing verifies evidence integrity.
-
-Common algorithms include:
-• MD5
-• SHA-1
-• SHA-256
-
-Matching hashes prove:
-• evidence integrity
-• absence of modification
-• forensic authenticity
-
-Hash values are recorded in:
-• forensic reports
-• chain of custody logs
-• laboratory documentation
-`,
-    },
-
-    {
-      heading: "Working Copies and Archive Copies",
-
-      notes: `
-After imaging:
-
-• a verified archive image is preserved
-• separate working copies are created for analysis
-
-Investigators never analyse:
-• original storage media
-• master forensic images
-
-This prevents accidental evidence alteration.
-`,
-    },
-
-    {
-      heading: "Evidence Storage and Environmental Controls",
-
-      notes: `
-Drone evidence storage environments must prevent:
-• tampering
-• corrosion
-• battery fires
-• static damage
-• biological degradation
-
-Storage conditions include:
-
-Temperature:
-15–22°C
-
-Humidity:
-40–60% RH
-
-Controlled access systems:
-• biometric access
-• keycard logging
-• evidence room monitoring
-`,
-    },
-
-    {
-      heading: "LiPo Battery Safety",
-
-      notes: `
-Lithium Polymer (LiPo) batteries present serious fire hazards.
-
-Damaged batteries may experience:
-• thermal runaway
-• swelling
-• electrolyte leakage
-• combustion
-
-Battery preservation procedures include:
-
-• separate storage
-• fireproof containment
-• partial charge storage
-• visual inspection
-• isolation from flammable materials
-`,
-    },
-
-    {
-      heading: "Digital Evidence Storage",
-
-      notes: `
-Forensic images should be stored on:
-
-• immutable storage systems
-• write-once media
-• forensic evidence servers
-• RAID redundancy systems
-
-Off-site backup storage is standard practice in major investigations.
-`,
-    },
-
-    {
-      heading: "Documentation and Reporting",
-
-      notes: `
-Every forensic action must be documented contemporaneously.
-
-Documentation includes:
-
-Scene Documentation:
-• photographs
-• video walkthroughs
-• GPS coordinates
-• witness lists
-• environmental conditions
-
-Laboratory Documentation:
-• acquisition logs
-• examination logs
-• tool versions
-• calibration records
-• screenshots
-• forensic findings
-`,
-    },
-
-    {
-      heading: "Expert Forensic Reporting",
-
-      notes: `
-A forensic report must clearly describe:
-
-• examination scope
-• acquisition methods
-• evidence examined
-• findings
-• conclusions
-• examiner qualifications
-
-Reports must be understandable to:
-• judges
-• juries
-• investigators
-• defence experts
-`,
-    },
-
-    {
-      heading: "Legal and Ethical Considerations",
-
-      notes: `
-Drone examinations must follow:
-• warrants
-• court orders
-• consent procedures
-• jurisdictional laws
-
-Investigators must avoid examining data outside authorised scope.
-
-Ethical obligations include:
-• minimisation
-• proportionality
-• full disclosure
-• preservation of privacy
-
-Cross-border drone investigations may involve:
-• MLAT procedures
-• foreign evidence standards
-• international legal cooperation
+This is extremely useful because it allows you to write code that works generically against a parent type, while still getting the specific behavior of each child. You can add a Parrot class tomorrow, override makeSound() to say "Polly wants a cracker," and all your existing code still works — no changes needed anywhere else. This property is called the **Open/Closed Principle**: your system is open for extension but closed for modification.
 `,
     },
 

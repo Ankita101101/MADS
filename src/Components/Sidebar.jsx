@@ -114,91 +114,27 @@ const Sidebar = ({ activeSection, setActiveSection }) => {
 
         </div>
 
-        {/* PDF UNIT 1 */}
+        {/* ALL PDFS */}
 
         <div
-          onClick={() => setActiveSection("pdf1")}
+          onClick={() => setActiveSection("allpdfs")}
           className={`p-4 rounded-2xl cursor-pointer transition border ${
-            activeSection === "pdf1"
+            activeSection === "allpdfs"
               ? "bg-cyan-500/20 border-cyan-400"
               : "bg-white/5 border-cyan-500/20 hover:bg-cyan-500/10"
           }`}
         >
 
           <h3 className="text-lg font-semibold text-white">
-            PDF Unit 1
+            All PDFs
           </h3>
 
           <p className="text-sm text-gray-400 mt-1">
-            Unit 1 Study Materials
+            All available PDF, DOC, and PPT files
           </p>
 
         </div>
 
-
-
-        {/* PDF UNIT 2 */}
-
-        <div
-          onClick={() => setActiveSection("pdf2")}
-          className={`p-4 rounded-2xl cursor-pointer transition border ${
-            activeSection === "pdf2"
-              ? "bg-cyan-500/20 border-cyan-400"
-              : "bg-white/5 border-cyan-500/20 hover:bg-cyan-500/10"
-          }`}
-        >
-
-          <h3 className="text-lg font-semibold text-white">
-            PDF Unit 2
-          </h3>
-
-          <p className="text-sm text-gray-400 mt-1">
-            Unit 2 Study Materials
-          </p>
-
-        </div>
-
-        {/* PDF UNIT 3 */}
-
-        <div
-          onClick={() => setActiveSection("pdf2")}
-          className={`p-4 rounded-2xl cursor-pointer transition border ${
-            activeSection === "pdf2"
-              ? "bg-cyan-500/20 border-cyan-400"
-              : "bg-white/5 border-cyan-500/20 hover:bg-cyan-500/10"
-          }`}
-        >
-
-          <h3 className="text-lg font-semibold text-white">
-            PDF Unit 3
-          </h3>
-
-          <p className="text-sm text-gray-400 mt-1">
-            Unit 3 Study Materials
-          </p>
-
-        </div>
-
-        {/* PDF UNIT 4 */}
-
-        <div
-          onClick={() => setActiveSection("pdf2")}
-          className={`p-4 rounded-2xl cursor-pointer transition border ${
-            activeSection === "pdf2"
-              ? "bg-cyan-500/20 border-cyan-400"
-              : "bg-white/5 border-cyan-500/20 hover:bg-cyan-500/10"
-          }`}
-        >
-
-          <h3 className="text-lg font-semibold text-white">
-            PDF Unit 4
-          </h3>
-
-          <p className="text-sm text-gray-400 mt-1">
-            Unit 4 Study Materials
-          </p>
-
-        </div>
 
         {/* PRACTICAL 1 */}
 

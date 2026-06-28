@@ -2,11 +2,6 @@ import { useState } from "react";
 
 import Sidebar from "../Components/Sidebar";
 
-import dronefs1 from "../assets/DRONE FS -01.pdf";
-import dronefs2 from "../assets/DRONE FS -02.pdf";
-import dronefs3 from "../assets/DRONE FS -03.pdf";
-import droneforensics from "../assets/droneforensics.pdf";
-
 import { unit1Cards } from "../data/unit1";
 import { unit2Cards } from "../data/unit2";
 import { unit3Cards } from "../data/unit3";
@@ -16,6 +11,67 @@ const Academy = () => {
   const [activeSection, setActiveSection] = useState("unit1");
 
   const [expandedCard, setExpandedCard] = useState(null);
+
+  const allDocs = [
+    {
+      category: "Source PDFs",
+      items: [
+        { name: "MADS-OOPS-1.pdf", url: "/allpdfs/src-assets/MADS-OOPS-1.pdf", type: "PDF" },
+        { name: "MADS-OOPS-2.pdf", url: "/allpdfs/src-assets/MADS-OOPS-2.pdf", type: "PDF" },
+        { name: "Question bank.pdf", url: "/allpdfs/src-assets/Question bank.pdf", type: "PDF" },
+      ],
+    },
+    {
+      category: "Root Documents",
+      items: [
+        { name: "Fundamentals of Android Application Development (1).pdf", url: "/allpdfs/root/Fundamentals of Android Application Development (1).pdf", type: "PDF" },
+        { name: "Fundamentals of Android ApplicationsR.pptx", url: "/allpdfs/root/Fundamentals of Android ApplicationsR.pptx", type: "PPTX" },
+        { name: "ICSF_303_SEM_5_Mobile Application Development & Security.doc", url: "/allpdfs/root/ICSF_303_SEM_5_Mobile Application Development & Security.doc", type: "DOC" },
+        { name: "introduction.docx", url: "/allpdfs/root/introduction.docx", type: "DOCX" },
+      ],
+    },
+    {
+      category: "Notes",
+      items: [
+        { name: "ICSF_303_SEM_5_Mobile Application Development & Security.doc", url: "/allpdfs/notes/ICSF_303_SEM_5_Mobile Application Development & Security.doc", type: "DOC" },
+        { name: "MADS-OOPS-1.pdf", url: "/allpdfs/notes/MADS-OOPS-1.pdf", type: "PDF" },
+        { name: "MADS-OOPS-2.pptx", url: "/allpdfs/notes/MADS-OOPS-2.pptx", type: "PPTX" },
+        { name: "S.pdf", url: "/allpdfs/notes/S.pdf", type: "PDF" },
+        { name: "software design.pdf", url: "/allpdfs/notes/software design.pdf", type: "PDF" },
+      ],
+    },
+    {
+      category: "Assignments",
+      items: [
+        { name: "assignment 02- answer key.docx", url: "/allpdfs/assignment/assignment 02- answer key.docx", type: "DOCX" },
+        { name: "Assignment 1.docx", url: "/allpdfs/assignment/Assignment 1.docx", type: "DOCX" },
+        { name: "Assignment with solution.docx", url: "/allpdfs/assignment/Assignment with solution.docx", type: "DOCX" },
+        { name: "Assignment-02.docx", url: "/allpdfs/assignment/Assignment-02.docx", type: "DOCX" },
+        { name: "S.E assignment 3.docx", url: "/allpdfs/assignment/S.E assignment 3.docx", type: "DOCX" },
+        { name: "S.E assignment 4.docx", url: "/allpdfs/assignment/S.E assignment 4.docx", type: "DOCX" },
+      ],
+    },
+  ];
+
+  const renderDocLink = (doc) => (
+    <a
+      key={doc.url}
+      href={encodeURI(doc.url)}
+      target="_blank"
+      rel="noreferrer noopener"
+      className="block rounded-3xl border border-cyan-500/20 bg-white/5 p-5 transition hover:border-cyan-300 hover:bg-cyan-500/10"
+    >
+      <div className="flex items-center justify-between gap-4">
+        <div>
+          <p className="text-lg font-semibold text-white">{doc.name}</p>
+          <p className="text-sm text-gray-400">{doc.type}</p>
+        </div>
+        <span className="rounded-full bg-cyan-500/20 px-3 py-1 text-sm text-cyan-200">
+          Open
+        </span>
+      </div>
+    </a>
+  );
 
   const renderCards = (cards, prefix = "") => {
     return cards.map((card, index) => {
@@ -244,45 +300,28 @@ const Academy = () => {
 )}
         
 
-        {activeSection === "pdf1" && (
+        {activeSection === "allpdfs" && (
           <div>
-
             <h1 className="text-5xl font-bold text-cyan-400 mb-10">
-              PDF Unit 1
+              All PDFs, DOCs and PPTs
             </h1>
 
-            <div className="space-y-12">
+            <p className="text-gray-400 text-lg mb-10 max-w-4xl">
+              A consolidated list of all available study materials, presentations, and documents.
+            </p>
 
-              <iframe
-                src={dronefs1}
-                title="Drone FS 1"
-                className="w-full h-[900px] rounded-3xl border border-cyan-500/20"
-              />
-
-              <iframe
-                src={dronefs2}
-                title="Drone FS 2"
-                className="w-full h-[900px] rounded-3xl border border-cyan-500/20"
-              />
-
+            <div className="space-y-10">
+              {allDocs.map((group) => (
+                <div key={group.category} className="space-y-6">
+                  <h2 className="text-3xl font-semibold text-cyan-300">
+                    {group.category}
+                  </h2>
+                  <div className="grid gap-4 md:grid-cols-2">
+                    {group.items.map((doc) => renderDocLink(doc))}
+                  </div>
+                </div>
+              ))}
             </div>
-
-          </div>
-        )}
-
-        {activeSection === "pdf2" && (
-          <div>
-
-            <h1 className="text-5xl font-bold text-cyan-400 mb-10">
-              PDF Unit 2
-            </h1>
-
-            <iframe
-              src={dronefs3}
-              title="Drone FS 3"
-              className="w-full h-[900px] rounded-3xl border border-cyan-500/20"
-            />
-
           </div>
         )}
 
